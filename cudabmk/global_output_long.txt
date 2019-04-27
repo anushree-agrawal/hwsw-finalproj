@@ -1,0 +1,2757 @@
+Assuming page size is 4 KB
+Global1: Global memory latency for 1 KB array and varying strides.
+   stride (bytes), latency (clocks)
+      4, Launch kernel with parameters: 4, N: 256, stride: 1
+Launch kernel with parameters: 4, N: 256, stride: 1
+Launch kernel with parameters: 4, N: 256, stride: 1
+Launch kernel with parameters: 4, N: 256, stride: 1
+Launch kernel with parameters: 4, N: 256, stride: 1
+Launch kernel with parameters: 4, N: 256, stride: 1
+Launch kernel with parameters: 4, N: 256, stride: 1
+Launch kernel with parameters: 4, N: 256, stride: 1
+Launch kernel with parameters: 4, N: 256, stride: 1
+Launch kernel with parameters: 4, N: 256, stride: 1
+186.113281
+      8, Launch kernel with parameters: 4, N: 256, stride: 2
+Launch kernel with parameters: 4, N: 256, stride: 2
+Launch kernel with parameters: 4, N: 256, stride: 2
+Launch kernel with parameters: 4, N: 256, stride: 2
+Launch kernel with parameters: 4, N: 256, stride: 2
+Launch kernel with parameters: 4, N: 256, stride: 2
+Launch kernel with parameters: 4, N: 256, stride: 2
+Launch kernel with parameters: 4, N: 256, stride: 2
+Launch kernel with parameters: 4, N: 256, stride: 2
+Launch kernel with parameters: 4, N: 256, stride: 2
+186.299707
+     12, Launch kernel with parameters: 4, N: 256, stride: 3
+Launch kernel with parameters: 4, N: 256, stride: 3
+Launch kernel with parameters: 4, N: 256, stride: 3
+Launch kernel with parameters: 4, N: 256, stride: 3
+Launch kernel with parameters: 4, N: 256, stride: 3
+Launch kernel with parameters: 4, N: 256, stride: 3
+Launch kernel with parameters: 4, N: 256, stride: 3
+Launch kernel with parameters: 4, N: 256, stride: 3
+Launch kernel with parameters: 4, N: 256, stride: 3
+Launch kernel with parameters: 4, N: 256, stride: 3
+186.106055
+     16, Launch kernel with parameters: 4, N: 256, stride: 4
+Launch kernel with parameters: 4, N: 256, stride: 4
+Launch kernel with parameters: 4, N: 256, stride: 4
+Launch kernel with parameters: 4, N: 256, stride: 4
+Launch kernel with parameters: 4, N: 256, stride: 4
+Launch kernel with parameters: 4, N: 256, stride: 4
+Launch kernel with parameters: 4, N: 256, stride: 4
+Launch kernel with parameters: 4, N: 256, stride: 4
+Launch kernel with parameters: 4, N: 256, stride: 4
+Launch kernel with parameters: 4, N: 256, stride: 4
+186.309473
+     20, Launch kernel with parameters: 4, N: 256, stride: 5
+Launch kernel with parameters: 4, N: 256, stride: 5
+Launch kernel with parameters: 4, N: 256, stride: 5
+Launch kernel with parameters: 4, N: 256, stride: 5
+Launch kernel with parameters: 4, N: 256, stride: 5
+Launch kernel with parameters: 4, N: 256, stride: 5
+Launch kernel with parameters: 4, N: 256, stride: 5
+Launch kernel with parameters: 4, N: 256, stride: 5
+Launch kernel with parameters: 4, N: 256, stride: 5
+Launch kernel with parameters: 4, N: 256, stride: 5
+186.119922
+     24, Launch kernel with parameters: 4, N: 256, stride: 6
+Launch kernel with parameters: 4, N: 256, stride: 6
+Launch kernel with parameters: 4, N: 256, stride: 6
+Launch kernel with parameters: 4, N: 256, stride: 6
+Launch kernel with parameters: 4, N: 256, stride: 6
+Launch kernel with parameters: 4, N: 256, stride: 6
+Launch kernel with parameters: 4, N: 256, stride: 6
+Launch kernel with parameters: 4, N: 256, stride: 6
+Launch kernel with parameters: 4, N: 256, stride: 6
+Launch kernel with parameters: 4, N: 256, stride: 6
+186.307715
+     28, Launch kernel with parameters: 4, N: 256, stride: 7
+Launch kernel with parameters: 4, N: 256, stride: 7
+Launch kernel with parameters: 4, N: 256, stride: 7
+Launch kernel with parameters: 4, N: 256, stride: 7
+Launch kernel with parameters: 4, N: 256, stride: 7
+Launch kernel with parameters: 4, N: 256, stride: 7
+Launch kernel with parameters: 4, N: 256, stride: 7
+Launch kernel with parameters: 4, N: 256, stride: 7
+Launch kernel with parameters: 4, N: 256, stride: 7
+Launch kernel with parameters: 4, N: 256, stride: 7
+186.079492
+     32, Launch kernel with parameters: 4, N: 256, stride: 8
+Launch kernel with parameters: 4, N: 256, stride: 8
+Launch kernel with parameters: 4, N: 256, stride: 8
+Launch kernel with parameters: 4, N: 256, stride: 8
+Launch kernel with parameters: 4, N: 256, stride: 8
+Launch kernel with parameters: 4, N: 256, stride: 8
+Launch kernel with parameters: 4, N: 256, stride: 8
+Launch kernel with parameters: 4, N: 256, stride: 8
+Launch kernel with parameters: 4, N: 256, stride: 8
+Launch kernel with parameters: 4, N: 256, stride: 8
+186.304688
+     36, Launch kernel with parameters: 4, N: 256, stride: 9
+Launch kernel with parameters: 4, N: 256, stride: 9
+Launch kernel with parameters: 4, N: 256, stride: 9
+Launch kernel with parameters: 4, N: 256, stride: 9
+Launch kernel with parameters: 4, N: 256, stride: 9
+Launch kernel with parameters: 4, N: 256, stride: 9
+Launch kernel with parameters: 4, N: 256, stride: 9
+Launch kernel with parameters: 4, N: 256, stride: 9
+Launch kernel with parameters: 4, N: 256, stride: 9
+Launch kernel with parameters: 4, N: 256, stride: 9
+186.103516
+     40, Launch kernel with parameters: 4, N: 256, stride: 10
+Launch kernel with parameters: 4, N: 256, stride: 10
+Launch kernel with parameters: 4, N: 256, stride: 10
+Launch kernel with parameters: 4, N: 256, stride: 10
+Launch kernel with parameters: 4, N: 256, stride: 10
+Launch kernel with parameters: 4, N: 256, stride: 10
+Launch kernel with parameters: 4, N: 256, stride: 10
+Launch kernel with parameters: 4, N: 256, stride: 10
+Launch kernel with parameters: 4, N: 256, stride: 10
+Launch kernel with parameters: 4, N: 256, stride: 10
+186.310840
+     44, Launch kernel with parameters: 4, N: 256, stride: 11
+Launch kernel with parameters: 4, N: 256, stride: 11
+Launch kernel with parameters: 4, N: 256, stride: 11
+Launch kernel with parameters: 4, N: 256, stride: 11
+Launch kernel with parameters: 4, N: 256, stride: 11
+Launch kernel with parameters: 4, N: 256, stride: 11
+Launch kernel with parameters: 4, N: 256, stride: 11
+Launch kernel with parameters: 4, N: 256, stride: 11
+Launch kernel with parameters: 4, N: 256, stride: 11
+Launch kernel with parameters: 4, N: 256, stride: 11
+186.099316
+     48, Launch kernel with parameters: 4, N: 256, stride: 12
+Launch kernel with parameters: 4, N: 256, stride: 12
+Launch kernel with parameters: 4, N: 256, stride: 12
+Launch kernel with parameters: 4, N: 256, stride: 12
+Launch kernel with parameters: 4, N: 256, stride: 12
+Launch kernel with parameters: 4, N: 256, stride: 12
+Launch kernel with parameters: 4, N: 256, stride: 12
+Launch kernel with parameters: 4, N: 256, stride: 12
+Launch kernel with parameters: 4, N: 256, stride: 12
+Launch kernel with parameters: 4, N: 256, stride: 12
+186.303809
+     52, Launch kernel with parameters: 4, N: 256, stride: 13
+Launch kernel with parameters: 4, N: 256, stride: 13
+Launch kernel with parameters: 4, N: 256, stride: 13
+Launch kernel with parameters: 4, N: 256, stride: 13
+Launch kernel with parameters: 4, N: 256, stride: 13
+Launch kernel with parameters: 4, N: 256, stride: 13
+Launch kernel with parameters: 4, N: 256, stride: 13
+Launch kernel with parameters: 4, N: 256, stride: 13
+Launch kernel with parameters: 4, N: 256, stride: 13
+Launch kernel with parameters: 4, N: 256, stride: 13
+186.080176
+     56, Launch kernel with parameters: 4, N: 256, stride: 14
+Launch kernel with parameters: 4, N: 256, stride: 14
+Launch kernel with parameters: 4, N: 256, stride: 14
+Launch kernel with parameters: 4, N: 256, stride: 14
+Launch kernel with parameters: 4, N: 256, stride: 14
+Launch kernel with parameters: 4, N: 256, stride: 14
+Launch kernel with parameters: 4, N: 256, stride: 14
+Launch kernel with parameters: 4, N: 256, stride: 14
+Launch kernel with parameters: 4, N: 256, stride: 14
+Launch kernel with parameters: 4, N: 256, stride: 14
+186.293652
+     60, Launch kernel with parameters: 4, N: 256, stride: 15
+Launch kernel with parameters: 4, N: 256, stride: 15
+Launch kernel with parameters: 4, N: 256, stride: 15
+Launch kernel with parameters: 4, N: 256, stride: 15
+Launch kernel with parameters: 4, N: 256, stride: 15
+Launch kernel with parameters: 4, N: 256, stride: 15
+Launch kernel with parameters: 4, N: 256, stride: 15
+Launch kernel with parameters: 4, N: 256, stride: 15
+Launch kernel with parameters: 4, N: 256, stride: 15
+Launch kernel with parameters: 4, N: 256, stride: 15
+186.108789
+     64, Launch kernel with parameters: 4, N: 256, stride: 16
+Launch kernel with parameters: 4, N: 256, stride: 16
+Launch kernel with parameters: 4, N: 256, stride: 16
+Launch kernel with parameters: 4, N: 256, stride: 16
+Launch kernel with parameters: 4, N: 256, stride: 16
+Launch kernel with parameters: 4, N: 256, stride: 16
+Launch kernel with parameters: 4, N: 256, stride: 16
+Launch kernel with parameters: 4, N: 256, stride: 16
+Launch kernel with parameters: 4, N: 256, stride: 16
+Launch kernel with parameters: 4, N: 256, stride: 16
+186.310645
+     68, Launch kernel with parameters: 4, N: 256, stride: 17
+Launch kernel with parameters: 4, N: 256, stride: 17
+Launch kernel with parameters: 4, N: 256, stride: 17
+Launch kernel with parameters: 4, N: 256, stride: 17
+Launch kernel with parameters: 4, N: 256, stride: 17
+Launch kernel with parameters: 4, N: 256, stride: 17
+Launch kernel with parameters: 4, N: 256, stride: 17
+Launch kernel with parameters: 4, N: 256, stride: 17
+Launch kernel with parameters: 4, N: 256, stride: 17
+Launch kernel with parameters: 4, N: 256, stride: 17
+186.098437
+     72, Launch kernel with parameters: 4, N: 256, stride: 18
+Launch kernel with parameters: 4, N: 256, stride: 18
+Launch kernel with parameters: 4, N: 256, stride: 18
+Launch kernel with parameters: 4, N: 256, stride: 18
+Launch kernel with parameters: 4, N: 256, stride: 18
+Launch kernel with parameters: 4, N: 256, stride: 18
+Launch kernel with parameters: 4, N: 256, stride: 18
+Launch kernel with parameters: 4, N: 256, stride: 18
+Launch kernel with parameters: 4, N: 256, stride: 18
+Launch kernel with parameters: 4, N: 256, stride: 18
+186.319629
+     76, Launch kernel with parameters: 4, N: 256, stride: 19
+Launch kernel with parameters: 4, N: 256, stride: 19
+Launch kernel with parameters: 4, N: 256, stride: 19
+Launch kernel with parameters: 4, N: 256, stride: 19
+Launch kernel with parameters: 4, N: 256, stride: 19
+Launch kernel with parameters: 4, N: 256, stride: 19
+Launch kernel with parameters: 4, N: 256, stride: 19
+Launch kernel with parameters: 4, N: 256, stride: 19
+Launch kernel with parameters: 4, N: 256, stride: 19
+Launch kernel with parameters: 4, N: 256, stride: 19
+186.103711
+     80, Launch kernel with parameters: 4, N: 256, stride: 20
+Launch kernel with parameters: 4, N: 256, stride: 20
+Launch kernel with parameters: 4, N: 256, stride: 20
+Launch kernel with parameters: 4, N: 256, stride: 20
+Launch kernel with parameters: 4, N: 256, stride: 20
+Launch kernel with parameters: 4, N: 256, stride: 20
+Launch kernel with parameters: 4, N: 256, stride: 20
+Launch kernel with parameters: 4, N: 256, stride: 20
+Launch kernel with parameters: 4, N: 256, stride: 20
+Launch kernel with parameters: 4, N: 256, stride: 20
+186.305762
+     84, Launch kernel with parameters: 4, N: 256, stride: 21
+Launch kernel with parameters: 4, N: 256, stride: 21
+Launch kernel with parameters: 4, N: 256, stride: 21
+Launch kernel with parameters: 4, N: 256, stride: 21
+Launch kernel with parameters: 4, N: 256, stride: 21
+Launch kernel with parameters: 4, N: 256, stride: 21
+Launch kernel with parameters: 4, N: 256, stride: 21
+Launch kernel with parameters: 4, N: 256, stride: 21
+Launch kernel with parameters: 4, N: 256, stride: 21
+Launch kernel with parameters: 4, N: 256, stride: 21
+186.104297
+     88, Launch kernel with parameters: 4, N: 256, stride: 22
+Launch kernel with parameters: 4, N: 256, stride: 22
+Launch kernel with parameters: 4, N: 256, stride: 22
+Launch kernel with parameters: 4, N: 256, stride: 22
+Launch kernel with parameters: 4, N: 256, stride: 22
+Launch kernel with parameters: 4, N: 256, stride: 22
+Launch kernel with parameters: 4, N: 256, stride: 22
+Launch kernel with parameters: 4, N: 256, stride: 22
+Launch kernel with parameters: 4, N: 256, stride: 22
+Launch kernel with parameters: 4, N: 256, stride: 22
+186.305957
+     92, Launch kernel with parameters: 4, N: 256, stride: 23
+Launch kernel with parameters: 4, N: 256, stride: 23
+Launch kernel with parameters: 4, N: 256, stride: 23
+Launch kernel with parameters: 4, N: 256, stride: 23
+Launch kernel with parameters: 4, N: 256, stride: 23
+Launch kernel with parameters: 4, N: 256, stride: 23
+Launch kernel with parameters: 4, N: 256, stride: 23
+Launch kernel with parameters: 4, N: 256, stride: 23
+Launch kernel with parameters: 4, N: 256, stride: 23
+Launch kernel with parameters: 4, N: 256, stride: 23
+186.124219
+     96, Launch kernel with parameters: 4, N: 256, stride: 24
+Launch kernel with parameters: 4, N: 256, stride: 24
+Launch kernel with parameters: 4, N: 256, stride: 24
+Launch kernel with parameters: 4, N: 256, stride: 24
+Launch kernel with parameters: 4, N: 256, stride: 24
+Launch kernel with parameters: 4, N: 256, stride: 24
+Launch kernel with parameters: 4, N: 256, stride: 24
+Launch kernel with parameters: 4, N: 256, stride: 24
+Launch kernel with parameters: 4, N: 256, stride: 24
+Launch kernel with parameters: 4, N: 256, stride: 24
+186.314355
+    100, Launch kernel with parameters: 4, N: 256, stride: 25
+Launch kernel with parameters: 4, N: 256, stride: 25
+Launch kernel with parameters: 4, N: 256, stride: 25
+Launch kernel with parameters: 4, N: 256, stride: 25
+Launch kernel with parameters: 4, N: 256, stride: 25
+Launch kernel with parameters: 4, N: 256, stride: 25
+Launch kernel with parameters: 4, N: 256, stride: 25
+Launch kernel with parameters: 4, N: 256, stride: 25
+Launch kernel with parameters: 4, N: 256, stride: 25
+Launch kernel with parameters: 4, N: 256, stride: 25
+186.087109
+    104, Launch kernel with parameters: 4, N: 256, stride: 26
+Launch kernel with parameters: 4, N: 256, stride: 26
+Launch kernel with parameters: 4, N: 256, stride: 26
+Launch kernel with parameters: 4, N: 256, stride: 26
+Launch kernel with parameters: 4, N: 256, stride: 26
+Launch kernel with parameters: 4, N: 256, stride: 26
+Launch kernel with parameters: 4, N: 256, stride: 26
+Launch kernel with parameters: 4, N: 256, stride: 26
+Launch kernel with parameters: 4, N: 256, stride: 26
+Launch kernel with parameters: 4, N: 256, stride: 26
+186.310254
+    108, Launch kernel with parameters: 4, N: 256, stride: 27
+Launch kernel with parameters: 4, N: 256, stride: 27
+Launch kernel with parameters: 4, N: 256, stride: 27
+Launch kernel with parameters: 4, N: 256, stride: 27
+Launch kernel with parameters: 4, N: 256, stride: 27
+Launch kernel with parameters: 4, N: 256, stride: 27
+Launch kernel with parameters: 4, N: 256, stride: 27
+Launch kernel with parameters: 4, N: 256, stride: 27
+Launch kernel with parameters: 4, N: 256, stride: 27
+Launch kernel with parameters: 4, N: 256, stride: 27
+186.104492
+    112, Launch kernel with parameters: 4, N: 256, stride: 28
+Launch kernel with parameters: 4, N: 256, stride: 28
+Launch kernel with parameters: 4, N: 256, stride: 28
+Launch kernel with parameters: 4, N: 256, stride: 28
+Launch kernel with parameters: 4, N: 256, stride: 28
+Launch kernel with parameters: 4, N: 256, stride: 28
+Launch kernel with parameters: 4, N: 256, stride: 28
+Launch kernel with parameters: 4, N: 256, stride: 28
+Launch kernel with parameters: 4, N: 256, stride: 28
+Launch kernel with parameters: 4, N: 256, stride: 28
+186.307129
+    116, Launch kernel with parameters: 4, N: 256, stride: 29
+Launch kernel with parameters: 4, N: 256, stride: 29
+Launch kernel with parameters: 4, N: 256, stride: 29
+Launch kernel with parameters: 4, N: 256, stride: 29
+Launch kernel with parameters: 4, N: 256, stride: 29
+Launch kernel with parameters: 4, N: 256, stride: 29
+Launch kernel with parameters: 4, N: 256, stride: 29
+Launch kernel with parameters: 4, N: 256, stride: 29
+Launch kernel with parameters: 4, N: 256, stride: 29
+Launch kernel with parameters: 4, N: 256, stride: 29
+186.104004
+    120, Launch kernel with parameters: 4, N: 256, stride: 30
+Launch kernel with parameters: 4, N: 256, stride: 30
+Launch kernel with parameters: 4, N: 256, stride: 30
+Launch kernel with parameters: 4, N: 256, stride: 30
+Launch kernel with parameters: 4, N: 256, stride: 30
+Launch kernel with parameters: 4, N: 256, stride: 30
+Launch kernel with parameters: 4, N: 256, stride: 30
+Launch kernel with parameters: 4, N: 256, stride: 30
+Launch kernel with parameters: 4, N: 256, stride: 30
+Launch kernel with parameters: 4, N: 256, stride: 30
+186.302832
+    124, Launch kernel with parameters: 4, N: 256, stride: 31
+Launch kernel with parameters: 4, N: 256, stride: 31
+Launch kernel with parameters: 4, N: 256, stride: 31
+Launch kernel with parameters: 4, N: 256, stride: 31
+Launch kernel with parameters: 4, N: 256, stride: 31
+Launch kernel with parameters: 4, N: 256, stride: 31
+Launch kernel with parameters: 4, N: 256, stride: 31
+Launch kernel with parameters: 4, N: 256, stride: 31
+Launch kernel with parameters: 4, N: 256, stride: 31
+Launch kernel with parameters: 4, N: 256, stride: 31
+186.076270
+    128, Launch kernel with parameters: 4, N: 256, stride: 32
+Launch kernel with parameters: 4, N: 256, stride: 32
+Launch kernel with parameters: 4, N: 256, stride: 32
+Launch kernel with parameters: 4, N: 256, stride: 32
+Launch kernel with parameters: 4, N: 256, stride: 32
+Launch kernel with parameters: 4, N: 256, stride: 32
+Launch kernel with parameters: 4, N: 256, stride: 32
+Launch kernel with parameters: 4, N: 256, stride: 32
+Launch kernel with parameters: 4, N: 256, stride: 32
+Launch kernel with parameters: 4, N: 256, stride: 32
+186.328125
+    132, Launch kernel with parameters: 4, N: 256, stride: 33
+Launch kernel with parameters: 4, N: 256, stride: 33
+Launch kernel with parameters: 4, N: 256, stride: 33
+Launch kernel with parameters: 4, N: 256, stride: 33
+Launch kernel with parameters: 4, N: 256, stride: 33
+Launch kernel with parameters: 4, N: 256, stride: 33
+Launch kernel with parameters: 4, N: 256, stride: 33
+Launch kernel with parameters: 4, N: 256, stride: 33
+Launch kernel with parameters: 4, N: 256, stride: 33
+Launch kernel with parameters: 4, N: 256, stride: 33
+186.095898
+    136, Launch kernel with parameters: 4, N: 256, stride: 34
+Launch kernel with parameters: 4, N: 256, stride: 34
+Launch kernel with parameters: 4, N: 256, stride: 34
+Launch kernel with parameters: 4, N: 256, stride: 34
+Launch kernel with parameters: 4, N: 256, stride: 34
+Launch kernel with parameters: 4, N: 256, stride: 34
+Launch kernel with parameters: 4, N: 256, stride: 34
+Launch kernel with parameters: 4, N: 256, stride: 34
+Launch kernel with parameters: 4, N: 256, stride: 34
+Launch kernel with parameters: 4, N: 256, stride: 34
+186.314746
+    140, Launch kernel with parameters: 4, N: 256, stride: 35
+Launch kernel with parameters: 4, N: 256, stride: 35
+Launch kernel with parameters: 4, N: 256, stride: 35
+Launch kernel with parameters: 4, N: 256, stride: 35
+Launch kernel with parameters: 4, N: 256, stride: 35
+Launch kernel with parameters: 4, N: 256, stride: 35
+Launch kernel with parameters: 4, N: 256, stride: 35
+Launch kernel with parameters: 4, N: 256, stride: 35
+Launch kernel with parameters: 4, N: 256, stride: 35
+Launch kernel with parameters: 4, N: 256, stride: 35
+186.124414
+    144, Launch kernel with parameters: 4, N: 256, stride: 36
+Launch kernel with parameters: 4, N: 256, stride: 36
+Launch kernel with parameters: 4, N: 256, stride: 36
+Launch kernel with parameters: 4, N: 256, stride: 36
+Launch kernel with parameters: 4, N: 256, stride: 36
+Launch kernel with parameters: 4, N: 256, stride: 36
+Launch kernel with parameters: 4, N: 256, stride: 36
+Launch kernel with parameters: 4, N: 256, stride: 36
+Launch kernel with parameters: 4, N: 256, stride: 36
+Launch kernel with parameters: 4, N: 256, stride: 36
+186.302539
+    148, Launch kernel with parameters: 4, N: 256, stride: 37
+Launch kernel with parameters: 4, N: 256, stride: 37
+Launch kernel with parameters: 4, N: 256, stride: 37
+Launch kernel with parameters: 4, N: 256, stride: 37
+Launch kernel with parameters: 4, N: 256, stride: 37
+Launch kernel with parameters: 4, N: 256, stride: 37
+Launch kernel with parameters: 4, N: 256, stride: 37
+Launch kernel with parameters: 4, N: 256, stride: 37
+Launch kernel with parameters: 4, N: 256, stride: 37
+Launch kernel with parameters: 4, N: 256, stride: 37
+186.107812
+    152, Launch kernel with parameters: 4, N: 256, stride: 38
+Launch kernel with parameters: 4, N: 256, stride: 38
+Launch kernel with parameters: 4, N: 256, stride: 38
+Launch kernel with parameters: 4, N: 256, stride: 38
+Launch kernel with parameters: 4, N: 256, stride: 38
+Launch kernel with parameters: 4, N: 256, stride: 38
+Launch kernel with parameters: 4, N: 256, stride: 38
+Launch kernel with parameters: 4, N: 256, stride: 38
+Launch kernel with parameters: 4, N: 256, stride: 38
+Launch kernel with parameters: 4, N: 256, stride: 38
+186.299219
+    156, Launch kernel with parameters: 4, N: 256, stride: 39
+Launch kernel with parameters: 4, N: 256, stride: 39
+Launch kernel with parameters: 4, N: 256, stride: 39
+Launch kernel with parameters: 4, N: 256, stride: 39
+Launch kernel with parameters: 4, N: 256, stride: 39
+Launch kernel with parameters: 4, N: 256, stride: 39
+Launch kernel with parameters: 4, N: 256, stride: 39
+Launch kernel with parameters: 4, N: 256, stride: 39
+Launch kernel with parameters: 4, N: 256, stride: 39
+Launch kernel with parameters: 4, N: 256, stride: 39
+186.116504
+    160, Launch kernel with parameters: 4, N: 256, stride: 40
+Launch kernel with parameters: 4, N: 256, stride: 40
+Launch kernel with parameters: 4, N: 256, stride: 40
+Launch kernel with parameters: 4, N: 256, stride: 40
+Launch kernel with parameters: 4, N: 256, stride: 40
+Launch kernel with parameters: 4, N: 256, stride: 40
+Launch kernel with parameters: 4, N: 256, stride: 40
+Launch kernel with parameters: 4, N: 256, stride: 40
+Launch kernel with parameters: 4, N: 256, stride: 40
+Launch kernel with parameters: 4, N: 256, stride: 40
+186.313965
+    164, Launch kernel with parameters: 4, N: 256, stride: 41
+Launch kernel with parameters: 4, N: 256, stride: 41
+Launch kernel with parameters: 4, N: 256, stride: 41
+Launch kernel with parameters: 4, N: 256, stride: 41
+Launch kernel with parameters: 4, N: 256, stride: 41
+Launch kernel with parameters: 4, N: 256, stride: 41
+Launch kernel with parameters: 4, N: 256, stride: 41
+Launch kernel with parameters: 4, N: 256, stride: 41
+Launch kernel with parameters: 4, N: 256, stride: 41
+Launch kernel with parameters: 4, N: 256, stride: 41
+186.124414
+    168, Launch kernel with parameters: 4, N: 256, stride: 42
+Launch kernel with parameters: 4, N: 256, stride: 42
+Launch kernel with parameters: 4, N: 256, stride: 42
+Launch kernel with parameters: 4, N: 256, stride: 42
+Launch kernel with parameters: 4, N: 256, stride: 42
+Launch kernel with parameters: 4, N: 256, stride: 42
+Launch kernel with parameters: 4, N: 256, stride: 42
+Launch kernel with parameters: 4, N: 256, stride: 42
+Launch kernel with parameters: 4, N: 256, stride: 42
+Launch kernel with parameters: 4, N: 256, stride: 42
+186.306348
+    172, Launch kernel with parameters: 4, N: 256, stride: 43
+Launch kernel with parameters: 4, N: 256, stride: 43
+Launch kernel with parameters: 4, N: 256, stride: 43
+Launch kernel with parameters: 4, N: 256, stride: 43
+Launch kernel with parameters: 4, N: 256, stride: 43
+Launch kernel with parameters: 4, N: 256, stride: 43
+Launch kernel with parameters: 4, N: 256, stride: 43
+Launch kernel with parameters: 4, N: 256, stride: 43
+Launch kernel with parameters: 4, N: 256, stride: 43
+Launch kernel with parameters: 4, N: 256, stride: 43
+186.103906
+    176, Launch kernel with parameters: 4, N: 256, stride: 44
+Launch kernel with parameters: 4, N: 256, stride: 44
+Launch kernel with parameters: 4, N: 256, stride: 44
+Launch kernel with parameters: 4, N: 256, stride: 44
+Launch kernel with parameters: 4, N: 256, stride: 44
+Launch kernel with parameters: 4, N: 256, stride: 44
+Launch kernel with parameters: 4, N: 256, stride: 44
+Launch kernel with parameters: 4, N: 256, stride: 44
+Launch kernel with parameters: 4, N: 256, stride: 44
+Launch kernel with parameters: 4, N: 256, stride: 44
+186.269336
+    180, Launch kernel with parameters: 4, N: 256, stride: 45
+Launch kernel with parameters: 4, N: 256, stride: 45
+Launch kernel with parameters: 4, N: 256, stride: 45
+Launch kernel with parameters: 4, N: 256, stride: 45
+Launch kernel with parameters: 4, N: 256, stride: 45
+Launch kernel with parameters: 4, N: 256, stride: 45
+Launch kernel with parameters: 4, N: 256, stride: 45
+Launch kernel with parameters: 4, N: 256, stride: 45
+Launch kernel with parameters: 4, N: 256, stride: 45
+Launch kernel with parameters: 4, N: 256, stride: 45
+186.100684
+    184, Launch kernel with parameters: 4, N: 256, stride: 46
+Launch kernel with parameters: 4, N: 256, stride: 46
+Launch kernel with parameters: 4, N: 256, stride: 46
+Launch kernel with parameters: 4, N: 256, stride: 46
+Launch kernel with parameters: 4, N: 256, stride: 46
+Launch kernel with parameters: 4, N: 256, stride: 46
+Launch kernel with parameters: 4, N: 256, stride: 46
+Launch kernel with parameters: 4, N: 256, stride: 46
+Launch kernel with parameters: 4, N: 256, stride: 46
+Launch kernel with parameters: 4, N: 256, stride: 46
+186.306055
+    188, Launch kernel with parameters: 4, N: 256, stride: 47
+Launch kernel with parameters: 4, N: 256, stride: 47
+Launch kernel with parameters: 4, N: 256, stride: 47
+Launch kernel with parameters: 4, N: 256, stride: 47
+Launch kernel with parameters: 4, N: 256, stride: 47
+Launch kernel with parameters: 4, N: 256, stride: 47
+Launch kernel with parameters: 4, N: 256, stride: 47
+Launch kernel with parameters: 4, N: 256, stride: 47
+Launch kernel with parameters: 4, N: 256, stride: 47
+Launch kernel with parameters: 4, N: 256, stride: 47
+186.120410
+    192, Launch kernel with parameters: 4, N: 256, stride: 48
+Launch kernel with parameters: 4, N: 256, stride: 48
+Launch kernel with parameters: 4, N: 256, stride: 48
+Launch kernel with parameters: 4, N: 256, stride: 48
+Launch kernel with parameters: 4, N: 256, stride: 48
+Launch kernel with parameters: 4, N: 256, stride: 48
+Launch kernel with parameters: 4, N: 256, stride: 48
+Launch kernel with parameters: 4, N: 256, stride: 48
+Launch kernel with parameters: 4, N: 256, stride: 48
+Launch kernel with parameters: 4, N: 256, stride: 48
+186.291504
+    196, Launch kernel with parameters: 4, N: 256, stride: 49
+Launch kernel with parameters: 4, N: 256, stride: 49
+Launch kernel with parameters: 4, N: 256, stride: 49
+Launch kernel with parameters: 4, N: 256, stride: 49
+Launch kernel with parameters: 4, N: 256, stride: 49
+Launch kernel with parameters: 4, N: 256, stride: 49
+Launch kernel with parameters: 4, N: 256, stride: 49
+Launch kernel with parameters: 4, N: 256, stride: 49
+Launch kernel with parameters: 4, N: 256, stride: 49
+Launch kernel with parameters: 4, N: 256, stride: 49
+186.106641
+    200, Launch kernel with parameters: 4, N: 256, stride: 50
+Launch kernel with parameters: 4, N: 256, stride: 50
+Launch kernel with parameters: 4, N: 256, stride: 50
+Launch kernel with parameters: 4, N: 256, stride: 50
+Launch kernel with parameters: 4, N: 256, stride: 50
+Launch kernel with parameters: 4, N: 256, stride: 50
+Launch kernel with parameters: 4, N: 256, stride: 50
+Launch kernel with parameters: 4, N: 256, stride: 50
+Launch kernel with parameters: 4, N: 256, stride: 50
+Launch kernel with parameters: 4, N: 256, stride: 50
+186.264844
+    204, Launch kernel with parameters: 4, N: 256, stride: 51
+Launch kernel with parameters: 4, N: 256, stride: 51
+Launch kernel with parameters: 4, N: 256, stride: 51
+Launch kernel with parameters: 4, N: 256, stride: 51
+Launch kernel with parameters: 4, N: 256, stride: 51
+Launch kernel with parameters: 4, N: 256, stride: 51
+Launch kernel with parameters: 4, N: 256, stride: 51
+Launch kernel with parameters: 4, N: 256, stride: 51
+Launch kernel with parameters: 4, N: 256, stride: 51
+Launch kernel with parameters: 4, N: 256, stride: 51
+186.112891
+    208, Launch kernel with parameters: 4, N: 256, stride: 52
+Launch kernel with parameters: 4, N: 256, stride: 52
+Launch kernel with parameters: 4, N: 256, stride: 52
+Launch kernel with parameters: 4, N: 256, stride: 52
+Launch kernel with parameters: 4, N: 256, stride: 52
+Launch kernel with parameters: 4, N: 256, stride: 52
+Launch kernel with parameters: 4, N: 256, stride: 52
+Launch kernel with parameters: 4, N: 256, stride: 52
+Launch kernel with parameters: 4, N: 256, stride: 52
+Launch kernel with parameters: 4, N: 256, stride: 52
+186.325781
+    212, Launch kernel with parameters: 4, N: 256, stride: 53
+Launch kernel with parameters: 4, N: 256, stride: 53
+Launch kernel with parameters: 4, N: 256, stride: 53
+Launch kernel with parameters: 4, N: 256, stride: 53
+Launch kernel with parameters: 4, N: 256, stride: 53
+Launch kernel with parameters: 4, N: 256, stride: 53
+Launch kernel with parameters: 4, N: 256, stride: 53
+Launch kernel with parameters: 4, N: 256, stride: 53
+Launch kernel with parameters: 4, N: 256, stride: 53
+Launch kernel with parameters: 4, N: 256, stride: 53
+186.114844
+    216, Launch kernel with parameters: 4, N: 256, stride: 54
+Launch kernel with parameters: 4, N: 256, stride: 54
+Launch kernel with parameters: 4, N: 256, stride: 54
+Launch kernel with parameters: 4, N: 256, stride: 54
+Launch kernel with parameters: 4, N: 256, stride: 54
+Launch kernel with parameters: 4, N: 256, stride: 54
+Launch kernel with parameters: 4, N: 256, stride: 54
+Launch kernel with parameters: 4, N: 256, stride: 54
+Launch kernel with parameters: 4, N: 256, stride: 54
+Launch kernel with parameters: 4, N: 256, stride: 54
+186.309570
+    220, Launch kernel with parameters: 4, N: 256, stride: 55
+Launch kernel with parameters: 4, N: 256, stride: 55
+Launch kernel with parameters: 4, N: 256, stride: 55
+Launch kernel with parameters: 4, N: 256, stride: 55
+Launch kernel with parameters: 4, N: 256, stride: 55
+Launch kernel with parameters: 4, N: 256, stride: 55
+Launch kernel with parameters: 4, N: 256, stride: 55
+Launch kernel with parameters: 4, N: 256, stride: 55
+Launch kernel with parameters: 4, N: 256, stride: 55
+Launch kernel with parameters: 4, N: 256, stride: 55
+186.136426
+    224, Launch kernel with parameters: 4, N: 256, stride: 56
+Launch kernel with parameters: 4, N: 256, stride: 56
+Launch kernel with parameters: 4, N: 256, stride: 56
+Launch kernel with parameters: 4, N: 256, stride: 56
+Launch kernel with parameters: 4, N: 256, stride: 56
+Launch kernel with parameters: 4, N: 256, stride: 56
+Launch kernel with parameters: 4, N: 256, stride: 56
+Launch kernel with parameters: 4, N: 256, stride: 56
+Launch kernel with parameters: 4, N: 256, stride: 56
+Launch kernel with parameters: 4, N: 256, stride: 56
+186.729297
+    228, Launch kernel with parameters: 4, N: 256, stride: 57
+Launch kernel with parameters: 4, N: 256, stride: 57
+Launch kernel with parameters: 4, N: 256, stride: 57
+Launch kernel with parameters: 4, N: 256, stride: 57
+Launch kernel with parameters: 4, N: 256, stride: 57
+Launch kernel with parameters: 4, N: 256, stride: 57
+Launch kernel with parameters: 4, N: 256, stride: 57
+Launch kernel with parameters: 4, N: 256, stride: 57
+Launch kernel with parameters: 4, N: 256, stride: 57
+Launch kernel with parameters: 4, N: 256, stride: 57
+186.569629
+    232, Launch kernel with parameters: 4, N: 256, stride: 58
+Launch kernel with parameters: 4, N: 256, stride: 58
+Launch kernel with parameters: 4, N: 256, stride: 58
+Launch kernel with parameters: 4, N: 256, stride: 58
+Launch kernel with parameters: 4, N: 256, stride: 58
+Launch kernel with parameters: 4, N: 256, stride: 58
+Launch kernel with parameters: 4, N: 256, stride: 58
+Launch kernel with parameters: 4, N: 256, stride: 58
+Launch kernel with parameters: 4, N: 256, stride: 58
+Launch kernel with parameters: 4, N: 256, stride: 58
+186.754297
+    236, Launch kernel with parameters: 4, N: 256, stride: 59
+Launch kernel with parameters: 4, N: 256, stride: 59
+Launch kernel with parameters: 4, N: 256, stride: 59
+Launch kernel with parameters: 4, N: 256, stride: 59
+Launch kernel with parameters: 4, N: 256, stride: 59
+Launch kernel with parameters: 4, N: 256, stride: 59
+Launch kernel with parameters: 4, N: 256, stride: 59
+Launch kernel with parameters: 4, N: 256, stride: 59
+Launch kernel with parameters: 4, N: 256, stride: 59
+Launch kernel with parameters: 4, N: 256, stride: 59
+186.568457
+    240, Launch kernel with parameters: 4, N: 256, stride: 60
+Launch kernel with parameters: 4, N: 256, stride: 60
+Launch kernel with parameters: 4, N: 256, stride: 60
+Launch kernel with parameters: 4, N: 256, stride: 60
+Launch kernel with parameters: 4, N: 256, stride: 60
+Launch kernel with parameters: 4, N: 256, stride: 60
+Launch kernel with parameters: 4, N: 256, stride: 60
+Launch kernel with parameters: 4, N: 256, stride: 60
+Launch kernel with parameters: 4, N: 256, stride: 60
+Launch kernel with parameters: 4, N: 256, stride: 60
+186.772852
+    244, Launch kernel with parameters: 4, N: 256, stride: 61
+Launch kernel with parameters: 4, N: 256, stride: 61
+Launch kernel with parameters: 4, N: 256, stride: 61
+Launch kernel with parameters: 4, N: 256, stride: 61
+Launch kernel with parameters: 4, N: 256, stride: 61
+Launch kernel with parameters: 4, N: 256, stride: 61
+Launch kernel with parameters: 4, N: 256, stride: 61
+Launch kernel with parameters: 4, N: 256, stride: 61
+Launch kernel with parameters: 4, N: 256, stride: 61
+Launch kernel with parameters: 4, N: 256, stride: 61
+186.575879
+    248, Launch kernel with parameters: 4, N: 256, stride: 62
+Launch kernel with parameters: 4, N: 256, stride: 62
+Launch kernel with parameters: 4, N: 256, stride: 62
+Launch kernel with parameters: 4, N: 256, stride: 62
+Launch kernel with parameters: 4, N: 256, stride: 62
+Launch kernel with parameters: 4, N: 256, stride: 62
+Launch kernel with parameters: 4, N: 256, stride: 62
+Launch kernel with parameters: 4, N: 256, stride: 62
+Launch kernel with parameters: 4, N: 256, stride: 62
+Launch kernel with parameters: 4, N: 256, stride: 62
+186.767188
+    252, Launch kernel with parameters: 4, N: 256, stride: 63
+Launch kernel with parameters: 4, N: 256, stride: 63
+Launch kernel with parameters: 4, N: 256, stride: 63
+Launch kernel with parameters: 4, N: 256, stride: 63
+Launch kernel with parameters: 4, N: 256, stride: 63
+Launch kernel with parameters: 4, N: 256, stride: 63
+Launch kernel with parameters: 4, N: 256, stride: 63
+Launch kernel with parameters: 4, N: 256, stride: 63
+Launch kernel with parameters: 4, N: 256, stride: 63
+Launch kernel with parameters: 4, N: 256, stride: 63
+186.542676
+    256, Launch kernel with parameters: 4, N: 256, stride: 64
+Launch kernel with parameters: 4, N: 256, stride: 64
+Launch kernel with parameters: 4, N: 256, stride: 64
+Launch kernel with parameters: 4, N: 256, stride: 64
+Launch kernel with parameters: 4, N: 256, stride: 64
+Launch kernel with parameters: 4, N: 256, stride: 64
+Launch kernel with parameters: 4, N: 256, stride: 64
+Launch kernel with parameters: 4, N: 256, stride: 64
+Launch kernel with parameters: 4, N: 256, stride: 64
+Launch kernel with parameters: 4, N: 256, stride: 64
+186.782617
+    260, Launch kernel with parameters: 4, N: 256, stride: 65
+Launch kernel with parameters: 4, N: 256, stride: 65
+Launch kernel with parameters: 4, N: 256, stride: 65
+Launch kernel with parameters: 4, N: 256, stride: 65
+Launch kernel with parameters: 4, N: 256, stride: 65
+Launch kernel with parameters: 4, N: 256, stride: 65
+Launch kernel with parameters: 4, N: 256, stride: 65
+Launch kernel with parameters: 4, N: 256, stride: 65
+Launch kernel with parameters: 4, N: 256, stride: 65
+Launch kernel with parameters: 4, N: 256, stride: 65
+186.562207
+    264, Launch kernel with parameters: 4, N: 256, stride: 66
+Launch kernel with parameters: 4, N: 256, stride: 66
+Launch kernel with parameters: 4, N: 256, stride: 66
+Launch kernel with parameters: 4, N: 256, stride: 66
+Launch kernel with parameters: 4, N: 256, stride: 66
+Launch kernel with parameters: 4, N: 256, stride: 66
+Launch kernel with parameters: 4, N: 256, stride: 66
+Launch kernel with parameters: 4, N: 256, stride: 66
+Launch kernel with parameters: 4, N: 256, stride: 66
+Launch kernel with parameters: 4, N: 256, stride: 66
+186.760059
+    268, Launch kernel with parameters: 4, N: 256, stride: 67
+Launch kernel with parameters: 4, N: 256, stride: 67
+Launch kernel with parameters: 4, N: 256, stride: 67
+Launch kernel with parameters: 4, N: 256, stride: 67
+Launch kernel with parameters: 4, N: 256, stride: 67
+Launch kernel with parameters: 4, N: 256, stride: 67
+Launch kernel with parameters: 4, N: 256, stride: 67
+Launch kernel with parameters: 4, N: 256, stride: 67
+Launch kernel with parameters: 4, N: 256, stride: 67
+Launch kernel with parameters: 4, N: 256, stride: 67
+186.575293
+    272, Launch kernel with parameters: 4, N: 256, stride: 68
+Launch kernel with parameters: 4, N: 256, stride: 68
+Launch kernel with parameters: 4, N: 256, stride: 68
+Launch kernel with parameters: 4, N: 256, stride: 68
+Launch kernel with parameters: 4, N: 256, stride: 68
+Launch kernel with parameters: 4, N: 256, stride: 68
+Launch kernel with parameters: 4, N: 256, stride: 68
+Launch kernel with parameters: 4, N: 256, stride: 68
+Launch kernel with parameters: 4, N: 256, stride: 68
+Launch kernel with parameters: 4, N: 256, stride: 68
+186.746875
+    276, Launch kernel with parameters: 4, N: 256, stride: 69
+Launch kernel with parameters: 4, N: 256, stride: 69
+Launch kernel with parameters: 4, N: 256, stride: 69
+Launch kernel with parameters: 4, N: 256, stride: 69
+Launch kernel with parameters: 4, N: 256, stride: 69
+Launch kernel with parameters: 4, N: 256, stride: 69
+Launch kernel with parameters: 4, N: 256, stride: 69
+Launch kernel with parameters: 4, N: 256, stride: 69
+Launch kernel with parameters: 4, N: 256, stride: 69
+Launch kernel with parameters: 4, N: 256, stride: 69
+186.550586
+    280, Launch kernel with parameters: 4, N: 256, stride: 70
+Launch kernel with parameters: 4, N: 256, stride: 70
+Launch kernel with parameters: 4, N: 256, stride: 70
+Launch kernel with parameters: 4, N: 256, stride: 70
+Launch kernel with parameters: 4, N: 256, stride: 70
+Launch kernel with parameters: 4, N: 256, stride: 70
+Launch kernel with parameters: 4, N: 256, stride: 70
+Launch kernel with parameters: 4, N: 256, stride: 70
+Launch kernel with parameters: 4, N: 256, stride: 70
+Launch kernel with parameters: 4, N: 256, stride: 70
+186.743945
+    284, Launch kernel with parameters: 4, N: 256, stride: 71
+Launch kernel with parameters: 4, N: 256, stride: 71
+Launch kernel with parameters: 4, N: 256, stride: 71
+Launch kernel with parameters: 4, N: 256, stride: 71
+Launch kernel with parameters: 4, N: 256, stride: 71
+Launch kernel with parameters: 4, N: 256, stride: 71
+Launch kernel with parameters: 4, N: 256, stride: 71
+Launch kernel with parameters: 4, N: 256, stride: 71
+Launch kernel with parameters: 4, N: 256, stride: 71
+Launch kernel with parameters: 4, N: 256, stride: 71
+186.543945
+    288, Launch kernel with parameters: 4, N: 256, stride: 72
+Launch kernel with parameters: 4, N: 256, stride: 72
+Launch kernel with parameters: 4, N: 256, stride: 72
+Launch kernel with parameters: 4, N: 256, stride: 72
+Launch kernel with parameters: 4, N: 256, stride: 72
+Launch kernel with parameters: 4, N: 256, stride: 72
+Launch kernel with parameters: 4, N: 256, stride: 72
+Launch kernel with parameters: 4, N: 256, stride: 72
+Launch kernel with parameters: 4, N: 256, stride: 72
+Launch kernel with parameters: 4, N: 256, stride: 72
+186.755859
+    292, Launch kernel with parameters: 4, N: 256, stride: 73
+Launch kernel with parameters: 4, N: 256, stride: 73
+Launch kernel with parameters: 4, N: 256, stride: 73
+Launch kernel with parameters: 4, N: 256, stride: 73
+Launch kernel with parameters: 4, N: 256, stride: 73
+Launch kernel with parameters: 4, N: 256, stride: 73
+Launch kernel with parameters: 4, N: 256, stride: 73
+Launch kernel with parameters: 4, N: 256, stride: 73
+Launch kernel with parameters: 4, N: 256, stride: 73
+Launch kernel with parameters: 4, N: 256, stride: 73
+186.562793
+    296, Launch kernel with parameters: 4, N: 256, stride: 74
+Launch kernel with parameters: 4, N: 256, stride: 74
+Launch kernel with parameters: 4, N: 256, stride: 74
+Launch kernel with parameters: 4, N: 256, stride: 74
+Launch kernel with parameters: 4, N: 256, stride: 74
+Launch kernel with parameters: 4, N: 256, stride: 74
+Launch kernel with parameters: 4, N: 256, stride: 74
+Launch kernel with parameters: 4, N: 256, stride: 74
+Launch kernel with parameters: 4, N: 256, stride: 74
+Launch kernel with parameters: 4, N: 256, stride: 74
+186.753711
+    300, Launch kernel with parameters: 4, N: 256, stride: 75
+Launch kernel with parameters: 4, N: 256, stride: 75
+Launch kernel with parameters: 4, N: 256, stride: 75
+Launch kernel with parameters: 4, N: 256, stride: 75
+Launch kernel with parameters: 4, N: 256, stride: 75
+Launch kernel with parameters: 4, N: 256, stride: 75
+Launch kernel with parameters: 4, N: 256, stride: 75
+Launch kernel with parameters: 4, N: 256, stride: 75
+Launch kernel with parameters: 4, N: 256, stride: 75
+Launch kernel with parameters: 4, N: 256, stride: 75
+186.565820
+    304, Launch kernel with parameters: 4, N: 256, stride: 76
+Launch kernel with parameters: 4, N: 256, stride: 76
+Launch kernel with parameters: 4, N: 256, stride: 76
+Launch kernel with parameters: 4, N: 256, stride: 76
+Launch kernel with parameters: 4, N: 256, stride: 76
+Launch kernel with parameters: 4, N: 256, stride: 76
+Launch kernel with parameters: 4, N: 256, stride: 76
+Launch kernel with parameters: 4, N: 256, stride: 76
+Launch kernel with parameters: 4, N: 256, stride: 76
+Launch kernel with parameters: 4, N: 256, stride: 76
+186.716602
+    308, Launch kernel with parameters: 4, N: 256, stride: 77
+Launch kernel with parameters: 4, N: 256, stride: 77
+Launch kernel with parameters: 4, N: 256, stride: 77
+Launch kernel with parameters: 4, N: 256, stride: 77
+Launch kernel with parameters: 4, N: 256, stride: 77
+Launch kernel with parameters: 4, N: 256, stride: 77
+Launch kernel with parameters: 4, N: 256, stride: 77
+Launch kernel with parameters: 4, N: 256, stride: 77
+Launch kernel with parameters: 4, N: 256, stride: 77
+Launch kernel with parameters: 4, N: 256, stride: 77
+186.541699
+    312, Launch kernel with parameters: 4, N: 256, stride: 78
+Launch kernel with parameters: 4, N: 256, stride: 78
+Launch kernel with parameters: 4, N: 256, stride: 78
+Launch kernel with parameters: 4, N: 256, stride: 78
+Launch kernel with parameters: 4, N: 256, stride: 78
+Launch kernel with parameters: 4, N: 256, stride: 78
+Launch kernel with parameters: 4, N: 256, stride: 78
+Launch kernel with parameters: 4, N: 256, stride: 78
+Launch kernel with parameters: 4, N: 256, stride: 78
+Launch kernel with parameters: 4, N: 256, stride: 78
+186.744922
+    316, Launch kernel with parameters: 4, N: 256, stride: 79
+Launch kernel with parameters: 4, N: 256, stride: 79
+Launch kernel with parameters: 4, N: 256, stride: 79
+Launch kernel with parameters: 4, N: 256, stride: 79
+Launch kernel with parameters: 4, N: 256, stride: 79
+Launch kernel with parameters: 4, N: 256, stride: 79
+Launch kernel with parameters: 4, N: 256, stride: 79
+Launch kernel with parameters: 4, N: 256, stride: 79
+Launch kernel with parameters: 4, N: 256, stride: 79
+Launch kernel with parameters: 4, N: 256, stride: 79
+186.539941
+    320, Launch kernel with parameters: 4, N: 256, stride: 80
+Launch kernel with parameters: 4, N: 256, stride: 80
+Launch kernel with parameters: 4, N: 256, stride: 80
+Launch kernel with parameters: 4, N: 256, stride: 80
+Launch kernel with parameters: 4, N: 256, stride: 80
+Launch kernel with parameters: 4, N: 256, stride: 80
+Launch kernel with parameters: 4, N: 256, stride: 80
+Launch kernel with parameters: 4, N: 256, stride: 80
+Launch kernel with parameters: 4, N: 256, stride: 80
+Launch kernel with parameters: 4, N: 256, stride: 80
+186.757227
+    324, Launch kernel with parameters: 4, N: 256, stride: 81
+Launch kernel with parameters: 4, N: 256, stride: 81
+Launch kernel with parameters: 4, N: 256, stride: 81
+Launch kernel with parameters: 4, N: 256, stride: 81
+Launch kernel with parameters: 4, N: 256, stride: 81
+Launch kernel with parameters: 4, N: 256, stride: 81
+Launch kernel with parameters: 4, N: 256, stride: 81
+Launch kernel with parameters: 4, N: 256, stride: 81
+Launch kernel with parameters: 4, N: 256, stride: 81
+Launch kernel with parameters: 4, N: 256, stride: 81
+186.548242
+    328, Launch kernel with parameters: 4, N: 256, stride: 82
+Launch kernel with parameters: 4, N: 256, stride: 82
+Launch kernel with parameters: 4, N: 256, stride: 82
+Launch kernel with parameters: 4, N: 256, stride: 82
+Launch kernel with parameters: 4, N: 256, stride: 82
+Launch kernel with parameters: 4, N: 256, stride: 82
+Launch kernel with parameters: 4, N: 256, stride: 82
+Launch kernel with parameters: 4, N: 256, stride: 82
+Launch kernel with parameters: 4, N: 256, stride: 82
+Launch kernel with parameters: 4, N: 256, stride: 82
+186.738574
+    332, Launch kernel with parameters: 4, N: 256, stride: 83
+Launch kernel with parameters: 4, N: 256, stride: 83
+Launch kernel with parameters: 4, N: 256, stride: 83
+Launch kernel with parameters: 4, N: 256, stride: 83
+Launch kernel with parameters: 4, N: 256, stride: 83
+Launch kernel with parameters: 4, N: 256, stride: 83
+Launch kernel with parameters: 4, N: 256, stride: 83
+Launch kernel with parameters: 4, N: 256, stride: 83
+Launch kernel with parameters: 4, N: 256, stride: 83
+Launch kernel with parameters: 4, N: 256, stride: 83
+186.526367
+    336, Launch kernel with parameters: 4, N: 256, stride: 84
+Launch kernel with parameters: 4, N: 256, stride: 84
+Launch kernel with parameters: 4, N: 256, stride: 84
+Launch kernel with parameters: 4, N: 256, stride: 84
+Launch kernel with parameters: 4, N: 256, stride: 84
+Launch kernel with parameters: 4, N: 256, stride: 84
+Launch kernel with parameters: 4, N: 256, stride: 84
+Launch kernel with parameters: 4, N: 256, stride: 84
+Launch kernel with parameters: 4, N: 256, stride: 84
+Launch kernel with parameters: 4, N: 256, stride: 84
+186.763672
+    340, Launch kernel with parameters: 4, N: 256, stride: 85
+Launch kernel with parameters: 4, N: 256, stride: 85
+Launch kernel with parameters: 4, N: 256, stride: 85
+Launch kernel with parameters: 4, N: 256, stride: 85
+Launch kernel with parameters: 4, N: 256, stride: 85
+Launch kernel with parameters: 4, N: 256, stride: 85
+Launch kernel with parameters: 4, N: 256, stride: 85
+Launch kernel with parameters: 4, N: 256, stride: 85
+Launch kernel with parameters: 4, N: 256, stride: 85
+Launch kernel with parameters: 4, N: 256, stride: 85
+186.577051
+    344, Launch kernel with parameters: 4, N: 256, stride: 86
+Launch kernel with parameters: 4, N: 256, stride: 86
+Launch kernel with parameters: 4, N: 256, stride: 86
+Launch kernel with parameters: 4, N: 256, stride: 86
+Launch kernel with parameters: 4, N: 256, stride: 86
+Launch kernel with parameters: 4, N: 256, stride: 86
+Launch kernel with parameters: 4, N: 256, stride: 86
+Launch kernel with parameters: 4, N: 256, stride: 86
+Launch kernel with parameters: 4, N: 256, stride: 86
+Launch kernel with parameters: 4, N: 256, stride: 86
+186.752148
+    348, Launch kernel with parameters: 4, N: 256, stride: 87
+Launch kernel with parameters: 4, N: 256, stride: 87
+Launch kernel with parameters: 4, N: 256, stride: 87
+Launch kernel with parameters: 4, N: 256, stride: 87
+Launch kernel with parameters: 4, N: 256, stride: 87
+Launch kernel with parameters: 4, N: 256, stride: 87
+Launch kernel with parameters: 4, N: 256, stride: 87
+Launch kernel with parameters: 4, N: 256, stride: 87
+Launch kernel with parameters: 4, N: 256, stride: 87
+Launch kernel with parameters: 4, N: 256, stride: 87
+186.552539
+    352, Launch kernel with parameters: 4, N: 256, stride: 88
+Launch kernel with parameters: 4, N: 256, stride: 88
+Launch kernel with parameters: 4, N: 256, stride: 88
+Launch kernel with parameters: 4, N: 256, stride: 88
+Launch kernel with parameters: 4, N: 256, stride: 88
+Launch kernel with parameters: 4, N: 256, stride: 88
+Launch kernel with parameters: 4, N: 256, stride: 88
+Launch kernel with parameters: 4, N: 256, stride: 88
+Launch kernel with parameters: 4, N: 256, stride: 88
+Launch kernel with parameters: 4, N: 256, stride: 88
+186.758203
+    356, Launch kernel with parameters: 4, N: 256, stride: 89
+Launch kernel with parameters: 4, N: 256, stride: 89
+Launch kernel with parameters: 4, N: 256, stride: 89
+Launch kernel with parameters: 4, N: 256, stride: 89
+Launch kernel with parameters: 4, N: 256, stride: 89
+Launch kernel with parameters: 4, N: 256, stride: 89
+Launch kernel with parameters: 4, N: 256, stride: 89
+Launch kernel with parameters: 4, N: 256, stride: 89
+Launch kernel with parameters: 4, N: 256, stride: 89
+Launch kernel with parameters: 4, N: 256, stride: 89
+186.547266
+    360, Launch kernel with parameters: 4, N: 256, stride: 90
+Launch kernel with parameters: 4, N: 256, stride: 90
+Launch kernel with parameters: 4, N: 256, stride: 90
+Launch kernel with parameters: 4, N: 256, stride: 90
+Launch kernel with parameters: 4, N: 256, stride: 90
+Launch kernel with parameters: 4, N: 256, stride: 90
+Launch kernel with parameters: 4, N: 256, stride: 90
+Launch kernel with parameters: 4, N: 256, stride: 90
+Launch kernel with parameters: 4, N: 256, stride: 90
+Launch kernel with parameters: 4, N: 256, stride: 90
+186.737500
+    364, Launch kernel with parameters: 4, N: 256, stride: 91
+Launch kernel with parameters: 4, N: 256, stride: 91
+Launch kernel with parameters: 4, N: 256, stride: 91
+Launch kernel with parameters: 4, N: 256, stride: 91
+Launch kernel with parameters: 4, N: 256, stride: 91
+Launch kernel with parameters: 4, N: 256, stride: 91
+Launch kernel with parameters: 4, N: 256, stride: 91
+Launch kernel with parameters: 4, N: 256, stride: 91
+Launch kernel with parameters: 4, N: 256, stride: 91
+Launch kernel with parameters: 4, N: 256, stride: 91
+186.545215
+    368, Launch kernel with parameters: 4, N: 256, stride: 92
+Launch kernel with parameters: 4, N: 256, stride: 92
+Launch kernel with parameters: 4, N: 256, stride: 92
+Launch kernel with parameters: 4, N: 256, stride: 92
+Launch kernel with parameters: 4, N: 256, stride: 92
+Launch kernel with parameters: 4, N: 256, stride: 92
+Launch kernel with parameters: 4, N: 256, stride: 92
+Launch kernel with parameters: 4, N: 256, stride: 92
+Launch kernel with parameters: 4, N: 256, stride: 92
+Launch kernel with parameters: 4, N: 256, stride: 92
+186.755176
+    372, Launch kernel with parameters: 4, N: 256, stride: 93
+Launch kernel with parameters: 4, N: 256, stride: 93
+Launch kernel with parameters: 4, N: 256, stride: 93
+Launch kernel with parameters: 4, N: 256, stride: 93
+Launch kernel with parameters: 4, N: 256, stride: 93
+Launch kernel with parameters: 4, N: 256, stride: 93
+Launch kernel with parameters: 4, N: 256, stride: 93
+Launch kernel with parameters: 4, N: 256, stride: 93
+Launch kernel with parameters: 4, N: 256, stride: 93
+Launch kernel with parameters: 4, N: 256, stride: 93
+186.551562
+    376, Launch kernel with parameters: 4, N: 256, stride: 94
+Launch kernel with parameters: 4, N: 256, stride: 94
+Launch kernel with parameters: 4, N: 256, stride: 94
+Launch kernel with parameters: 4, N: 256, stride: 94
+Launch kernel with parameters: 4, N: 256, stride: 94
+Launch kernel with parameters: 4, N: 256, stride: 94
+Launch kernel with parameters: 4, N: 256, stride: 94
+Launch kernel with parameters: 4, N: 256, stride: 94
+Launch kernel with parameters: 4, N: 256, stride: 94
+Launch kernel with parameters: 4, N: 256, stride: 94
+186.757129
+    380, Launch kernel with parameters: 4, N: 256, stride: 95
+Launch kernel with parameters: 4, N: 256, stride: 95
+Launch kernel with parameters: 4, N: 256, stride: 95
+Launch kernel with parameters: 4, N: 256, stride: 95
+Launch kernel with parameters: 4, N: 256, stride: 95
+Launch kernel with parameters: 4, N: 256, stride: 95
+Launch kernel with parameters: 4, N: 256, stride: 95
+Launch kernel with parameters: 4, N: 256, stride: 95
+Launch kernel with parameters: 4, N: 256, stride: 95
+Launch kernel with parameters: 4, N: 256, stride: 95
+186.555078
+    384, Launch kernel with parameters: 4, N: 256, stride: 96
+Launch kernel with parameters: 4, N: 256, stride: 96
+Launch kernel with parameters: 4, N: 256, stride: 96
+Launch kernel with parameters: 4, N: 256, stride: 96
+Launch kernel with parameters: 4, N: 256, stride: 96
+Launch kernel with parameters: 4, N: 256, stride: 96
+Launch kernel with parameters: 4, N: 256, stride: 96
+Launch kernel with parameters: 4, N: 256, stride: 96
+Launch kernel with parameters: 4, N: 256, stride: 96
+Launch kernel with parameters: 4, N: 256, stride: 96
+186.716113
+    388, Launch kernel with parameters: 4, N: 256, stride: 97
+Launch kernel with parameters: 4, N: 256, stride: 97
+Launch kernel with parameters: 4, N: 256, stride: 97
+Launch kernel with parameters: 4, N: 256, stride: 97
+Launch kernel with parameters: 4, N: 256, stride: 97
+Launch kernel with parameters: 4, N: 256, stride: 97
+Launch kernel with parameters: 4, N: 256, stride: 97
+Launch kernel with parameters: 4, N: 256, stride: 97
+Launch kernel with parameters: 4, N: 256, stride: 97
+Launch kernel with parameters: 4, N: 256, stride: 97
+186.549316
+    392, Launch kernel with parameters: 4, N: 256, stride: 98
+Launch kernel with parameters: 4, N: 256, stride: 98
+Launch kernel with parameters: 4, N: 256, stride: 98
+Launch kernel with parameters: 4, N: 256, stride: 98
+Launch kernel with parameters: 4, N: 256, stride: 98
+Launch kernel with parameters: 4, N: 256, stride: 98
+Launch kernel with parameters: 4, N: 256, stride: 98
+Launch kernel with parameters: 4, N: 256, stride: 98
+Launch kernel with parameters: 4, N: 256, stride: 98
+Launch kernel with parameters: 4, N: 256, stride: 98
+186.763672
+    396, Launch kernel with parameters: 4, N: 256, stride: 99
+Launch kernel with parameters: 4, N: 256, stride: 99
+Launch kernel with parameters: 4, N: 256, stride: 99
+Launch kernel with parameters: 4, N: 256, stride: 99
+Launch kernel with parameters: 4, N: 256, stride: 99
+Launch kernel with parameters: 4, N: 256, stride: 99
+Launch kernel with parameters: 4, N: 256, stride: 99
+Launch kernel with parameters: 4, N: 256, stride: 99
+Launch kernel with parameters: 4, N: 256, stride: 99
+Launch kernel with parameters: 4, N: 256, stride: 99
+186.564453
+    400, Launch kernel with parameters: 4, N: 256, stride: 100
+Launch kernel with parameters: 4, N: 256, stride: 100
+Launch kernel with parameters: 4, N: 256, stride: 100
+Launch kernel with parameters: 4, N: 256, stride: 100
+Launch kernel with parameters: 4, N: 256, stride: 100
+Launch kernel with parameters: 4, N: 256, stride: 100
+Launch kernel with parameters: 4, N: 256, stride: 100
+Launch kernel with parameters: 4, N: 256, stride: 100
+Launch kernel with parameters: 4, N: 256, stride: 100
+Launch kernel with parameters: 4, N: 256, stride: 100
+186.766211
+    404, Launch kernel with parameters: 4, N: 256, stride: 101
+Launch kernel with parameters: 4, N: 256, stride: 101
+Launch kernel with parameters: 4, N: 256, stride: 101
+Launch kernel with parameters: 4, N: 256, stride: 101
+Launch kernel with parameters: 4, N: 256, stride: 101
+Launch kernel with parameters: 4, N: 256, stride: 101
+Launch kernel with parameters: 4, N: 256, stride: 101
+Launch kernel with parameters: 4, N: 256, stride: 101
+Launch kernel with parameters: 4, N: 256, stride: 101
+Launch kernel with parameters: 4, N: 256, stride: 101
+186.564063
+    408, Launch kernel with parameters: 4, N: 256, stride: 102
+Launch kernel with parameters: 4, N: 256, stride: 102
+Launch kernel with parameters: 4, N: 256, stride: 102
+Launch kernel with parameters: 4, N: 256, stride: 102
+Launch kernel with parameters: 4, N: 256, stride: 102
+Launch kernel with parameters: 4, N: 256, stride: 102
+Launch kernel with parameters: 4, N: 256, stride: 102
+Launch kernel with parameters: 4, N: 256, stride: 102
+Launch kernel with parameters: 4, N: 256, stride: 102
+Launch kernel with parameters: 4, N: 256, stride: 102
+186.781250
+    412, Launch kernel with parameters: 4, N: 256, stride: 103
+Launch kernel with parameters: 4, N: 256, stride: 103
+Launch kernel with parameters: 4, N: 256, stride: 103
+Launch kernel with parameters: 4, N: 256, stride: 103
+Launch kernel with parameters: 4, N: 256, stride: 103
+Launch kernel with parameters: 4, N: 256, stride: 103
+Launch kernel with parameters: 4, N: 256, stride: 103
+Launch kernel with parameters: 4, N: 256, stride: 103
+Launch kernel with parameters: 4, N: 256, stride: 103
+Launch kernel with parameters: 4, N: 256, stride: 103
+186.543555
+    416, Launch kernel with parameters: 4, N: 256, stride: 104
+Launch kernel with parameters: 4, N: 256, stride: 104
+Launch kernel with parameters: 4, N: 256, stride: 104
+Launch kernel with parameters: 4, N: 256, stride: 104
+Launch kernel with parameters: 4, N: 256, stride: 104
+Launch kernel with parameters: 4, N: 256, stride: 104
+Launch kernel with parameters: 4, N: 256, stride: 104
+Launch kernel with parameters: 4, N: 256, stride: 104
+Launch kernel with parameters: 4, N: 256, stride: 104
+Launch kernel with parameters: 4, N: 256, stride: 104
+186.758008
+    420, Launch kernel with parameters: 4, N: 256, stride: 105
+Launch kernel with parameters: 4, N: 256, stride: 105
+Launch kernel with parameters: 4, N: 256, stride: 105
+Launch kernel with parameters: 4, N: 256, stride: 105
+Launch kernel with parameters: 4, N: 256, stride: 105
+Launch kernel with parameters: 4, N: 256, stride: 105
+Launch kernel with parameters: 4, N: 256, stride: 105
+Launch kernel with parameters: 4, N: 256, stride: 105
+Launch kernel with parameters: 4, N: 256, stride: 105
+Launch kernel with parameters: 4, N: 256, stride: 105
+186.556152
+    424, Launch kernel with parameters: 4, N: 256, stride: 106
+Launch kernel with parameters: 4, N: 256, stride: 106
+Launch kernel with parameters: 4, N: 256, stride: 106
+Launch kernel with parameters: 4, N: 256, stride: 106
+Launch kernel with parameters: 4, N: 256, stride: 106
+Launch kernel with parameters: 4, N: 256, stride: 106
+Launch kernel with parameters: 4, N: 256, stride: 106
+Launch kernel with parameters: 4, N: 256, stride: 106
+Launch kernel with parameters: 4, N: 256, stride: 106
+Launch kernel with parameters: 4, N: 256, stride: 106
+186.752344
+    428, Launch kernel with parameters: 4, N: 256, stride: 107
+Launch kernel with parameters: 4, N: 256, stride: 107
+Launch kernel with parameters: 4, N: 256, stride: 107
+Launch kernel with parameters: 4, N: 256, stride: 107
+Launch kernel with parameters: 4, N: 256, stride: 107
+Launch kernel with parameters: 4, N: 256, stride: 107
+Launch kernel with parameters: 4, N: 256, stride: 107
+Launch kernel with parameters: 4, N: 256, stride: 107
+Launch kernel with parameters: 4, N: 256, stride: 107
+Launch kernel with parameters: 4, N: 256, stride: 107
+186.557813
+    432, Launch kernel with parameters: 4, N: 256, stride: 108
+Launch kernel with parameters: 4, N: 256, stride: 108
+Launch kernel with parameters: 4, N: 256, stride: 108
+Launch kernel with parameters: 4, N: 256, stride: 108
+Launch kernel with parameters: 4, N: 256, stride: 108
+Launch kernel with parameters: 4, N: 256, stride: 108
+Launch kernel with parameters: 4, N: 256, stride: 108
+Launch kernel with parameters: 4, N: 256, stride: 108
+Launch kernel with parameters: 4, N: 256, stride: 108
+Launch kernel with parameters: 4, N: 256, stride: 108
+186.752148
+    436, Launch kernel with parameters: 4, N: 256, stride: 109
+Launch kernel with parameters: 4, N: 256, stride: 109
+Launch kernel with parameters: 4, N: 256, stride: 109
+Launch kernel with parameters: 4, N: 256, stride: 109
+Launch kernel with parameters: 4, N: 256, stride: 109
+Launch kernel with parameters: 4, N: 256, stride: 109
+Launch kernel with parameters: 4, N: 256, stride: 109
+Launch kernel with parameters: 4, N: 256, stride: 109
+Launch kernel with parameters: 4, N: 256, stride: 109
+Launch kernel with parameters: 4, N: 256, stride: 109
+186.558105
+    440, Launch kernel with parameters: 4, N: 256, stride: 110
+Launch kernel with parameters: 4, N: 256, stride: 110
+Launch kernel with parameters: 4, N: 256, stride: 110
+Launch kernel with parameters: 4, N: 256, stride: 110
+Launch kernel with parameters: 4, N: 256, stride: 110
+Launch kernel with parameters: 4, N: 256, stride: 110
+Launch kernel with parameters: 4, N: 256, stride: 110
+Launch kernel with parameters: 4, N: 256, stride: 110
+Launch kernel with parameters: 4, N: 256, stride: 110
+Launch kernel with parameters: 4, N: 256, stride: 110
+186.740332
+    444, Launch kernel with parameters: 4, N: 256, stride: 111
+Launch kernel with parameters: 4, N: 256, stride: 111
+Launch kernel with parameters: 4, N: 256, stride: 111
+Launch kernel with parameters: 4, N: 256, stride: 111
+Launch kernel with parameters: 4, N: 256, stride: 111
+Launch kernel with parameters: 4, N: 256, stride: 111
+Launch kernel with parameters: 4, N: 256, stride: 111
+Launch kernel with parameters: 4, N: 256, stride: 111
+Launch kernel with parameters: 4, N: 256, stride: 111
+Launch kernel with parameters: 4, N: 256, stride: 111
+186.571777
+    448, Launch kernel with parameters: 4, N: 256, stride: 112
+Launch kernel with parameters: 4, N: 256, stride: 112
+Launch kernel with parameters: 4, N: 256, stride: 112
+Launch kernel with parameters: 4, N: 256, stride: 112
+Launch kernel with parameters: 4, N: 256, stride: 112
+Launch kernel with parameters: 4, N: 256, stride: 112
+Launch kernel with parameters: 4, N: 256, stride: 112
+Launch kernel with parameters: 4, N: 256, stride: 112
+Launch kernel with parameters: 4, N: 256, stride: 112
+Launch kernel with parameters: 4, N: 256, stride: 112
+186.753711
+    452, Launch kernel with parameters: 4, N: 256, stride: 113
+Launch kernel with parameters: 4, N: 256, stride: 113
+Launch kernel with parameters: 4, N: 256, stride: 113
+Launch kernel with parameters: 4, N: 256, stride: 113
+Launch kernel with parameters: 4, N: 256, stride: 113
+Launch kernel with parameters: 4, N: 256, stride: 113
+Launch kernel with parameters: 4, N: 256, stride: 113
+Launch kernel with parameters: 4, N: 256, stride: 113
+Launch kernel with parameters: 4, N: 256, stride: 113
+Launch kernel with parameters: 4, N: 256, stride: 113
+186.582617
+    456, Launch kernel with parameters: 4, N: 256, stride: 114
+Launch kernel with parameters: 4, N: 256, stride: 114
+Launch kernel with parameters: 4, N: 256, stride: 114
+Launch kernel with parameters: 4, N: 256, stride: 114
+Launch kernel with parameters: 4, N: 256, stride: 114
+Launch kernel with parameters: 4, N: 256, stride: 114
+Launch kernel with parameters: 4, N: 256, stride: 114
+Launch kernel with parameters: 4, N: 256, stride: 114
+Launch kernel with parameters: 4, N: 256, stride: 114
+Launch kernel with parameters: 4, N: 256, stride: 114
+186.766895
+    460, Launch kernel with parameters: 4, N: 256, stride: 115
+Launch kernel with parameters: 4, N: 256, stride: 115
+Launch kernel with parameters: 4, N: 256, stride: 115
+Launch kernel with parameters: 4, N: 256, stride: 115
+Launch kernel with parameters: 4, N: 256, stride: 115
+Launch kernel with parameters: 4, N: 256, stride: 115
+Launch kernel with parameters: 4, N: 256, stride: 115
+Launch kernel with parameters: 4, N: 256, stride: 115
+Launch kernel with parameters: 4, N: 256, stride: 115
+Launch kernel with parameters: 4, N: 256, stride: 115
+186.556250
+    464, Launch kernel with parameters: 4, N: 256, stride: 116
+Launch kernel with parameters: 4, N: 256, stride: 116
+Launch kernel with parameters: 4, N: 256, stride: 116
+Launch kernel with parameters: 4, N: 256, stride: 116
+Launch kernel with parameters: 4, N: 256, stride: 116
+Launch kernel with parameters: 4, N: 256, stride: 116
+Launch kernel with parameters: 4, N: 256, stride: 116
+Launch kernel with parameters: 4, N: 256, stride: 116
+Launch kernel with parameters: 4, N: 256, stride: 116
+Launch kernel with parameters: 4, N: 256, stride: 116
+186.709082
+    468, Launch kernel with parameters: 4, N: 256, stride: 117
+Launch kernel with parameters: 4, N: 256, stride: 117
+Launch kernel with parameters: 4, N: 256, stride: 117
+Launch kernel with parameters: 4, N: 256, stride: 117
+Launch kernel with parameters: 4, N: 256, stride: 117
+Launch kernel with parameters: 4, N: 256, stride: 117
+Launch kernel with parameters: 4, N: 256, stride: 117
+Launch kernel with parameters: 4, N: 256, stride: 117
+Launch kernel with parameters: 4, N: 256, stride: 117
+Launch kernel with parameters: 4, N: 256, stride: 117
+186.559863
+    472, Launch kernel with parameters: 4, N: 256, stride: 118
+Launch kernel with parameters: 4, N: 256, stride: 118
+Launch kernel with parameters: 4, N: 256, stride: 118
+Launch kernel with parameters: 4, N: 256, stride: 118
+Launch kernel with parameters: 4, N: 256, stride: 118
+Launch kernel with parameters: 4, N: 256, stride: 118
+Launch kernel with parameters: 4, N: 256, stride: 118
+Launch kernel with parameters: 4, N: 256, stride: 118
+Launch kernel with parameters: 4, N: 256, stride: 118
+Launch kernel with parameters: 4, N: 256, stride: 118
+186.750000
+    476, Launch kernel with parameters: 4, N: 256, stride: 119
+Launch kernel with parameters: 4, N: 256, stride: 119
+Launch kernel with parameters: 4, N: 256, stride: 119
+Launch kernel with parameters: 4, N: 256, stride: 119
+Launch kernel with parameters: 4, N: 256, stride: 119
+Launch kernel with parameters: 4, N: 256, stride: 119
+Launch kernel with parameters: 4, N: 256, stride: 119
+Launch kernel with parameters: 4, N: 256, stride: 119
+Launch kernel with parameters: 4, N: 256, stride: 119
+Launch kernel with parameters: 4, N: 256, stride: 119
+186.555957
+    480, Launch kernel with parameters: 4, N: 256, stride: 120
+Launch kernel with parameters: 4, N: 256, stride: 120
+Launch kernel with parameters: 4, N: 256, stride: 120
+Launch kernel with parameters: 4, N: 256, stride: 120
+Launch kernel with parameters: 4, N: 256, stride: 120
+Launch kernel with parameters: 4, N: 256, stride: 120
+Launch kernel with parameters: 4, N: 256, stride: 120
+Launch kernel with parameters: 4, N: 256, stride: 120
+Launch kernel with parameters: 4, N: 256, stride: 120
+Launch kernel with parameters: 4, N: 256, stride: 120
+186.774316
+    484, Launch kernel with parameters: 4, N: 256, stride: 121
+Launch kernel with parameters: 4, N: 256, stride: 121
+Launch kernel with parameters: 4, N: 256, stride: 121
+Launch kernel with parameters: 4, N: 256, stride: 121
+Launch kernel with parameters: 4, N: 256, stride: 121
+Launch kernel with parameters: 4, N: 256, stride: 121
+Launch kernel with parameters: 4, N: 256, stride: 121
+Launch kernel with parameters: 4, N: 256, stride: 121
+Launch kernel with parameters: 4, N: 256, stride: 121
+Launch kernel with parameters: 4, N: 256, stride: 121
+186.567090
+    488, Launch kernel with parameters: 4, N: 256, stride: 122
+Launch kernel with parameters: 4, N: 256, stride: 122
+Launch kernel with parameters: 4, N: 256, stride: 122
+Launch kernel with parameters: 4, N: 256, stride: 122
+Launch kernel with parameters: 4, N: 256, stride: 122
+Launch kernel with parameters: 4, N: 256, stride: 122
+Launch kernel with parameters: 4, N: 256, stride: 122
+Launch kernel with parameters: 4, N: 256, stride: 122
+Launch kernel with parameters: 4, N: 256, stride: 122
+Launch kernel with parameters: 4, N: 256, stride: 122
+186.744629
+    492, Launch kernel with parameters: 4, N: 256, stride: 123
+Launch kernel with parameters: 4, N: 256, stride: 123
+Launch kernel with parameters: 4, N: 256, stride: 123
+Launch kernel with parameters: 4, N: 256, stride: 123
+Launch kernel with parameters: 4, N: 256, stride: 123
+Launch kernel with parameters: 4, N: 256, stride: 123
+Launch kernel with parameters: 4, N: 256, stride: 123
+Launch kernel with parameters: 4, N: 256, stride: 123
+Launch kernel with parameters: 4, N: 256, stride: 123
+Launch kernel with parameters: 4, N: 256, stride: 123
+186.510352
+    496, Launch kernel with parameters: 4, N: 256, stride: 124
+Launch kernel with parameters: 4, N: 256, stride: 124
+Launch kernel with parameters: 4, N: 256, stride: 124
+Launch kernel with parameters: 4, N: 256, stride: 124
+Launch kernel with parameters: 4, N: 256, stride: 124
+Launch kernel with parameters: 4, N: 256, stride: 124
+Launch kernel with parameters: 4, N: 256, stride: 124
+Launch kernel with parameters: 4, N: 256, stride: 124
+Launch kernel with parameters: 4, N: 256, stride: 124
+Launch kernel with parameters: 4, N: 256, stride: 124
+186.756738
+    500, Launch kernel with parameters: 4, N: 256, stride: 125
+Launch kernel with parameters: 4, N: 256, stride: 125
+Launch kernel with parameters: 4, N: 256, stride: 125
+Launch kernel with parameters: 4, N: 256, stride: 125
+Launch kernel with parameters: 4, N: 256, stride: 125
+Launch kernel with parameters: 4, N: 256, stride: 125
+Launch kernel with parameters: 4, N: 256, stride: 125
+Launch kernel with parameters: 4, N: 256, stride: 125
+Launch kernel with parameters: 4, N: 256, stride: 125
+Launch kernel with parameters: 4, N: 256, stride: 125
+186.568262
+    504, Launch kernel with parameters: 4, N: 256, stride: 126
+Launch kernel with parameters: 4, N: 256, stride: 126
+Launch kernel with parameters: 4, N: 256, stride: 126
+Launch kernel with parameters: 4, N: 256, stride: 126
+Launch kernel with parameters: 4, N: 256, stride: 126
+Launch kernel with parameters: 4, N: 256, stride: 126
+Launch kernel with parameters: 4, N: 256, stride: 126
+Launch kernel with parameters: 4, N: 256, stride: 126
+Launch kernel with parameters: 4, N: 256, stride: 126
+Launch kernel with parameters: 4, N: 256, stride: 126
+186.748730
+    508, Launch kernel with parameters: 4, N: 256, stride: 127
+Launch kernel with parameters: 4, N: 256, stride: 127
+Launch kernel with parameters: 4, N: 256, stride: 127
+Launch kernel with parameters: 4, N: 256, stride: 127
+Launch kernel with parameters: 4, N: 256, stride: 127
+Launch kernel with parameters: 4, N: 256, stride: 127
+Launch kernel with parameters: 4, N: 256, stride: 127
+Launch kernel with parameters: 4, N: 256, stride: 127
+Launch kernel with parameters: 4, N: 256, stride: 127
+Launch kernel with parameters: 4, N: 256, stride: 127
+186.550586
+    512, Launch kernel with parameters: 4, N: 256, stride: 128
+Launch kernel with parameters: 4, N: 256, stride: 128
+Launch kernel with parameters: 4, N: 256, stride: 128
+Launch kernel with parameters: 4, N: 256, stride: 128
+Launch kernel with parameters: 4, N: 256, stride: 128
+Launch kernel with parameters: 4, N: 256, stride: 128
+Launch kernel with parameters: 4, N: 256, stride: 128
+Launch kernel with parameters: 4, N: 256, stride: 128
+Launch kernel with parameters: 4, N: 256, stride: 128
+Launch kernel with parameters: 4, N: 256, stride: 128
+186.733887
+    516, Launch kernel with parameters: 4, N: 256, stride: 129
+Launch kernel with parameters: 4, N: 256, stride: 129
+Launch kernel with parameters: 4, N: 256, stride: 129
+Launch kernel with parameters: 4, N: 256, stride: 129
+Launch kernel with parameters: 4, N: 256, stride: 129
+Launch kernel with parameters: 4, N: 256, stride: 129
+Launch kernel with parameters: 4, N: 256, stride: 129
+Launch kernel with parameters: 4, N: 256, stride: 129
+Launch kernel with parameters: 4, N: 256, stride: 129
+Launch kernel with parameters: 4, N: 256, stride: 129
+186.550879
+    520, Launch kernel with parameters: 4, N: 256, stride: 130
+Launch kernel with parameters: 4, N: 256, stride: 130
+Launch kernel with parameters: 4, N: 256, stride: 130
+Launch kernel with parameters: 4, N: 256, stride: 130
+Launch kernel with parameters: 4, N: 256, stride: 130
+Launch kernel with parameters: 4, N: 256, stride: 130
+Launch kernel with parameters: 4, N: 256, stride: 130
+Launch kernel with parameters: 4, N: 256, stride: 130
+Launch kernel with parameters: 4, N: 256, stride: 130
+Launch kernel with parameters: 4, N: 256, stride: 130
+186.752930
+    524, Launch kernel with parameters: 4, N: 256, stride: 131
+Launch kernel with parameters: 4, N: 256, stride: 131
+Launch kernel with parameters: 4, N: 256, stride: 131
+Launch kernel with parameters: 4, N: 256, stride: 131
+Launch kernel with parameters: 4, N: 256, stride: 131
+Launch kernel with parameters: 4, N: 256, stride: 131
+Launch kernel with parameters: 4, N: 256, stride: 131
+Launch kernel with parameters: 4, N: 256, stride: 131
+Launch kernel with parameters: 4, N: 256, stride: 131
+Launch kernel with parameters: 4, N: 256, stride: 131
+186.555078
+    528, Launch kernel with parameters: 4, N: 256, stride: 132
+Launch kernel with parameters: 4, N: 256, stride: 132
+Launch kernel with parameters: 4, N: 256, stride: 132
+Launch kernel with parameters: 4, N: 256, stride: 132
+Launch kernel with parameters: 4, N: 256, stride: 132
+Launch kernel with parameters: 4, N: 256, stride: 132
+Launch kernel with parameters: 4, N: 256, stride: 132
+Launch kernel with parameters: 4, N: 256, stride: 132
+Launch kernel with parameters: 4, N: 256, stride: 132
+Launch kernel with parameters: 4, N: 256, stride: 132
+186.761914
+    532, Launch kernel with parameters: 4, N: 256, stride: 133
+Launch kernel with parameters: 4, N: 256, stride: 133
+Launch kernel with parameters: 4, N: 256, stride: 133
+Launch kernel with parameters: 4, N: 256, stride: 133
+Launch kernel with parameters: 4, N: 256, stride: 133
+Launch kernel with parameters: 4, N: 256, stride: 133
+Launch kernel with parameters: 4, N: 256, stride: 133
+Launch kernel with parameters: 4, N: 256, stride: 133
+Launch kernel with parameters: 4, N: 256, stride: 133
+Launch kernel with parameters: 4, N: 256, stride: 133
+186.571875
+    536, Launch kernel with parameters: 4, N: 256, stride: 134
+Launch kernel with parameters: 4, N: 256, stride: 134
+Launch kernel with parameters: 4, N: 256, stride: 134
+Launch kernel with parameters: 4, N: 256, stride: 134
+Launch kernel with parameters: 4, N: 256, stride: 134
+Launch kernel with parameters: 4, N: 256, stride: 134
+Launch kernel with parameters: 4, N: 256, stride: 134
+Launch kernel with parameters: 4, N: 256, stride: 134
+Launch kernel with parameters: 4, N: 256, stride: 134
+Launch kernel with parameters: 4, N: 256, stride: 134
+186.761328
+    540, Launch kernel with parameters: 4, N: 256, stride: 135
+Launch kernel with parameters: 4, N: 256, stride: 135
+Launch kernel with parameters: 4, N: 256, stride: 135
+Launch kernel with parameters: 4, N: 256, stride: 135
+Launch kernel with parameters: 4, N: 256, stride: 135
+Launch kernel with parameters: 4, N: 256, stride: 135
+Launch kernel with parameters: 4, N: 256, stride: 135
+Launch kernel with parameters: 4, N: 256, stride: 135
+Launch kernel with parameters: 4, N: 256, stride: 135
+Launch kernel with parameters: 4, N: 256, stride: 135
+186.550391
+    544, Launch kernel with parameters: 4, N: 256, stride: 136
+Launch kernel with parameters: 4, N: 256, stride: 136
+Launch kernel with parameters: 4, N: 256, stride: 136
+Launch kernel with parameters: 4, N: 256, stride: 136
+Launch kernel with parameters: 4, N: 256, stride: 136
+Launch kernel with parameters: 4, N: 256, stride: 136
+Launch kernel with parameters: 4, N: 256, stride: 136
+Launch kernel with parameters: 4, N: 256, stride: 136
+Launch kernel with parameters: 4, N: 256, stride: 136
+Launch kernel with parameters: 4, N: 256, stride: 136
+186.712305
+    548, Launch kernel with parameters: 4, N: 256, stride: 137
+Launch kernel with parameters: 4, N: 256, stride: 137
+Launch kernel with parameters: 4, N: 256, stride: 137
+Launch kernel with parameters: 4, N: 256, stride: 137
+Launch kernel with parameters: 4, N: 256, stride: 137
+Launch kernel with parameters: 4, N: 256, stride: 137
+Launch kernel with parameters: 4, N: 256, stride: 137
+Launch kernel with parameters: 4, N: 256, stride: 137
+Launch kernel with parameters: 4, N: 256, stride: 137
+Launch kernel with parameters: 4, N: 256, stride: 137
+186.545312
+    552, Launch kernel with parameters: 4, N: 256, stride: 138
+Launch kernel with parameters: 4, N: 256, stride: 138
+Launch kernel with parameters: 4, N: 256, stride: 138
+Launch kernel with parameters: 4, N: 256, stride: 138
+Launch kernel with parameters: 4, N: 256, stride: 138
+Launch kernel with parameters: 4, N: 256, stride: 138
+Launch kernel with parameters: 4, N: 256, stride: 138
+Launch kernel with parameters: 4, N: 256, stride: 138
+Launch kernel with parameters: 4, N: 256, stride: 138
+Launch kernel with parameters: 4, N: 256, stride: 138
+186.753809
+    556, Launch kernel with parameters: 4, N: 256, stride: 139
+Launch kernel with parameters: 4, N: 256, stride: 139
+Launch kernel with parameters: 4, N: 256, stride: 139
+Launch kernel with parameters: 4, N: 256, stride: 139
+Launch kernel with parameters: 4, N: 256, stride: 139
+Launch kernel with parameters: 4, N: 256, stride: 139
+Launch kernel with parameters: 4, N: 256, stride: 139
+Launch kernel with parameters: 4, N: 256, stride: 139
+Launch kernel with parameters: 4, N: 256, stride: 139
+Launch kernel with parameters: 4, N: 256, stride: 139
+186.556152
+    560, Launch kernel with parameters: 4, N: 256, stride: 140
+Launch kernel with parameters: 4, N: 256, stride: 140
+Launch kernel with parameters: 4, N: 256, stride: 140
+Launch kernel with parameters: 4, N: 256, stride: 140
+Launch kernel with parameters: 4, N: 256, stride: 140
+Launch kernel with parameters: 4, N: 256, stride: 140
+Launch kernel with parameters: 4, N: 256, stride: 140
+Launch kernel with parameters: 4, N: 256, stride: 140
+Launch kernel with parameters: 4, N: 256, stride: 140
+Launch kernel with parameters: 4, N: 256, stride: 140
+186.762695
+    564, Launch kernel with parameters: 4, N: 256, stride: 141
+Launch kernel with parameters: 4, N: 256, stride: 141
+Launch kernel with parameters: 4, N: 256, stride: 141
+Launch kernel with parameters: 4, N: 256, stride: 141
+Launch kernel with parameters: 4, N: 256, stride: 141
+Launch kernel with parameters: 4, N: 256, stride: 141
+Launch kernel with parameters: 4, N: 256, stride: 141
+Launch kernel with parameters: 4, N: 256, stride: 141
+Launch kernel with parameters: 4, N: 256, stride: 141
+Launch kernel with parameters: 4, N: 256, stride: 141
+186.582129
+    568, Launch kernel with parameters: 4, N: 256, stride: 142
+Launch kernel with parameters: 4, N: 256, stride: 142
+Launch kernel with parameters: 4, N: 256, stride: 142
+Launch kernel with parameters: 4, N: 256, stride: 142
+Launch kernel with parameters: 4, N: 256, stride: 142
+Launch kernel with parameters: 4, N: 256, stride: 142
+Launch kernel with parameters: 4, N: 256, stride: 142
+Launch kernel with parameters: 4, N: 256, stride: 142
+Launch kernel with parameters: 4, N: 256, stride: 142
+Launch kernel with parameters: 4, N: 256, stride: 142
+186.776172
+    572, Launch kernel with parameters: 4, N: 256, stride: 143
+Launch kernel with parameters: 4, N: 256, stride: 143
+Launch kernel with parameters: 4, N: 256, stride: 143
+Launch kernel with parameters: 4, N: 256, stride: 143
+Launch kernel with parameters: 4, N: 256, stride: 143
+Launch kernel with parameters: 4, N: 256, stride: 143
+Launch kernel with parameters: 4, N: 256, stride: 143
+Launch kernel with parameters: 4, N: 256, stride: 143
+Launch kernel with parameters: 4, N: 256, stride: 143
+Launch kernel with parameters: 4, N: 256, stride: 143
+186.548438
+    576, Launch kernel with parameters: 4, N: 256, stride: 144
+Launch kernel with parameters: 4, N: 256, stride: 144
+Launch kernel with parameters: 4, N: 256, stride: 144
+Launch kernel with parameters: 4, N: 256, stride: 144
+Launch kernel with parameters: 4, N: 256, stride: 144
+Launch kernel with parameters: 4, N: 256, stride: 144
+Launch kernel with parameters: 4, N: 256, stride: 144
+Launch kernel with parameters: 4, N: 256, stride: 144
+Launch kernel with parameters: 4, N: 256, stride: 144
+Launch kernel with parameters: 4, N: 256, stride: 144
+186.764453
+    580, Launch kernel with parameters: 4, N: 256, stride: 145
+Launch kernel with parameters: 4, N: 256, stride: 145
+Launch kernel with parameters: 4, N: 256, stride: 145
+Launch kernel with parameters: 4, N: 256, stride: 145
+Launch kernel with parameters: 4, N: 256, stride: 145
+Launch kernel with parameters: 4, N: 256, stride: 145
+Launch kernel with parameters: 4, N: 256, stride: 145
+Launch kernel with parameters: 4, N: 256, stride: 145
+Launch kernel with parameters: 4, N: 256, stride: 145
+Launch kernel with parameters: 4, N: 256, stride: 145
+186.562012
+    584, Launch kernel with parameters: 4, N: 256, stride: 146
+Launch kernel with parameters: 4, N: 256, stride: 146
+Launch kernel with parameters: 4, N: 256, stride: 146
+Launch kernel with parameters: 4, N: 256, stride: 146
+Launch kernel with parameters: 4, N: 256, stride: 146
+Launch kernel with parameters: 4, N: 256, stride: 146
+Launch kernel with parameters: 4, N: 256, stride: 146
+Launch kernel with parameters: 4, N: 256, stride: 146
+Launch kernel with parameters: 4, N: 256, stride: 146
+Launch kernel with parameters: 4, N: 256, stride: 146
+186.774902
+    588, Launch kernel with parameters: 4, N: 256, stride: 147
+Launch kernel with parameters: 4, N: 256, stride: 147
+Launch kernel with parameters: 4, N: 256, stride: 147
+Launch kernel with parameters: 4, N: 256, stride: 147
+Launch kernel with parameters: 4, N: 256, stride: 147
+Launch kernel with parameters: 4, N: 256, stride: 147
+Launch kernel with parameters: 4, N: 256, stride: 147
+Launch kernel with parameters: 4, N: 256, stride: 147
+Launch kernel with parameters: 4, N: 256, stride: 147
+Launch kernel with parameters: 4, N: 256, stride: 147
+186.574707
+    592, Launch kernel with parameters: 4, N: 256, stride: 148
+Launch kernel with parameters: 4, N: 256, stride: 148
+Launch kernel with parameters: 4, N: 256, stride: 148
+Launch kernel with parameters: 4, N: 256, stride: 148
+Launch kernel with parameters: 4, N: 256, stride: 148
+Launch kernel with parameters: 4, N: 256, stride: 148
+Launch kernel with parameters: 4, N: 256, stride: 148
+Launch kernel with parameters: 4, N: 256, stride: 148
+Launch kernel with parameters: 4, N: 256, stride: 148
+Launch kernel with parameters: 4, N: 256, stride: 148
+186.754980
+    596, Launch kernel with parameters: 4, N: 256, stride: 149
+Launch kernel with parameters: 4, N: 256, stride: 149
+Launch kernel with parameters: 4, N: 256, stride: 149
+Launch kernel with parameters: 4, N: 256, stride: 149
+Launch kernel with parameters: 4, N: 256, stride: 149
+Launch kernel with parameters: 4, N: 256, stride: 149
+Launch kernel with parameters: 4, N: 256, stride: 149
+Launch kernel with parameters: 4, N: 256, stride: 149
+Launch kernel with parameters: 4, N: 256, stride: 149
+Launch kernel with parameters: 4, N: 256, stride: 149
+186.549609
+    600, Launch kernel with parameters: 4, N: 256, stride: 150
+Launch kernel with parameters: 4, N: 256, stride: 150
+Launch kernel with parameters: 4, N: 256, stride: 150
+Launch kernel with parameters: 4, N: 256, stride: 150
+Launch kernel with parameters: 4, N: 256, stride: 150
+Launch kernel with parameters: 4, N: 256, stride: 150
+Launch kernel with parameters: 4, N: 256, stride: 150
+Launch kernel with parameters: 4, N: 256, stride: 150
+Launch kernel with parameters: 4, N: 256, stride: 150
+Launch kernel with parameters: 4, N: 256, stride: 150
+186.764746
+    604, Launch kernel with parameters: 4, N: 256, stride: 151
+Launch kernel with parameters: 4, N: 256, stride: 151
+Launch kernel with parameters: 4, N: 256, stride: 151
+Launch kernel with parameters: 4, N: 256, stride: 151
+Launch kernel with parameters: 4, N: 256, stride: 151
+Launch kernel with parameters: 4, N: 256, stride: 151
+Launch kernel with parameters: 4, N: 256, stride: 151
+Launch kernel with parameters: 4, N: 256, stride: 151
+Launch kernel with parameters: 4, N: 256, stride: 151
+Launch kernel with parameters: 4, N: 256, stride: 151
+186.570605
+    608, Launch kernel with parameters: 4, N: 256, stride: 152
+Launch kernel with parameters: 4, N: 256, stride: 152
+Launch kernel with parameters: 4, N: 256, stride: 152
+Launch kernel with parameters: 4, N: 256, stride: 152
+Launch kernel with parameters: 4, N: 256, stride: 152
+Launch kernel with parameters: 4, N: 256, stride: 152
+Launch kernel with parameters: 4, N: 256, stride: 152
+Launch kernel with parameters: 4, N: 256, stride: 152
+Launch kernel with parameters: 4, N: 256, stride: 152
+Launch kernel with parameters: 4, N: 256, stride: 152
+186.755762
+    612, Launch kernel with parameters: 4, N: 256, stride: 153
+Launch kernel with parameters: 4, N: 256, stride: 153
+Launch kernel with parameters: 4, N: 256, stride: 153
+Launch kernel with parameters: 4, N: 256, stride: 153
+Launch kernel with parameters: 4, N: 256, stride: 153
+Launch kernel with parameters: 4, N: 256, stride: 153
+Launch kernel with parameters: 4, N: 256, stride: 153
+Launch kernel with parameters: 4, N: 256, stride: 153
+Launch kernel with parameters: 4, N: 256, stride: 153
+Launch kernel with parameters: 4, N: 256, stride: 153
+186.566992
+    616, Launch kernel with parameters: 4, N: 256, stride: 154
+Launch kernel with parameters: 4, N: 256, stride: 154
+Launch kernel with parameters: 4, N: 256, stride: 154
+Launch kernel with parameters: 4, N: 256, stride: 154
+Launch kernel with parameters: 4, N: 256, stride: 154
+Launch kernel with parameters: 4, N: 256, stride: 154
+Launch kernel with parameters: 4, N: 256, stride: 154
+Launch kernel with parameters: 4, N: 256, stride: 154
+Launch kernel with parameters: 4, N: 256, stride: 154
+Launch kernel with parameters: 4, N: 256, stride: 154
+186.772559
+    620, Launch kernel with parameters: 4, N: 256, stride: 155
+Launch kernel with parameters: 4, N: 256, stride: 155
+Launch kernel with parameters: 4, N: 256, stride: 155
+Launch kernel with parameters: 4, N: 256, stride: 155
+Launch kernel with parameters: 4, N: 256, stride: 155
+Launch kernel with parameters: 4, N: 256, stride: 155
+Launch kernel with parameters: 4, N: 256, stride: 155
+Launch kernel with parameters: 4, N: 256, stride: 155
+Launch kernel with parameters: 4, N: 256, stride: 155
+Launch kernel with parameters: 4, N: 256, stride: 155
+186.569336
+    624, Launch kernel with parameters: 4, N: 256, stride: 156
+Launch kernel with parameters: 4, N: 256, stride: 156
+Launch kernel with parameters: 4, N: 256, stride: 156
+Launch kernel with parameters: 4, N: 256, stride: 156
+Launch kernel with parameters: 4, N: 256, stride: 156
+Launch kernel with parameters: 4, N: 256, stride: 156
+Launch kernel with parameters: 4, N: 256, stride: 156
+Launch kernel with parameters: 4, N: 256, stride: 156
+Launch kernel with parameters: 4, N: 256, stride: 156
+Launch kernel with parameters: 4, N: 256, stride: 156
+186.749121
+    628, Launch kernel with parameters: 4, N: 256, stride: 157
+Launch kernel with parameters: 4, N: 256, stride: 157
+Launch kernel with parameters: 4, N: 256, stride: 157
+Launch kernel with parameters: 4, N: 256, stride: 157
+Launch kernel with parameters: 4, N: 256, stride: 157
+Launch kernel with parameters: 4, N: 256, stride: 157
+Launch kernel with parameters: 4, N: 256, stride: 157
+Launch kernel with parameters: 4, N: 256, stride: 157
+Launch kernel with parameters: 4, N: 256, stride: 157
+Launch kernel with parameters: 4, N: 256, stride: 157
+186.553613
+    632, Launch kernel with parameters: 4, N: 256, stride: 158
+Launch kernel with parameters: 4, N: 256, stride: 158
+Launch kernel with parameters: 4, N: 256, stride: 158
+Launch kernel with parameters: 4, N: 256, stride: 158
+Launch kernel with parameters: 4, N: 256, stride: 158
+Launch kernel with parameters: 4, N: 256, stride: 158
+Launch kernel with parameters: 4, N: 256, stride: 158
+Launch kernel with parameters: 4, N: 256, stride: 158
+Launch kernel with parameters: 4, N: 256, stride: 158
+Launch kernel with parameters: 4, N: 256, stride: 158
+186.753906
+    636, Launch kernel with parameters: 4, N: 256, stride: 159
+Launch kernel with parameters: 4, N: 256, stride: 159
+Launch kernel with parameters: 4, N: 256, stride: 159
+Launch kernel with parameters: 4, N: 256, stride: 159
+Launch kernel with parameters: 4, N: 256, stride: 159
+Launch kernel with parameters: 4, N: 256, stride: 159
+Launch kernel with parameters: 4, N: 256, stride: 159
+Launch kernel with parameters: 4, N: 256, stride: 159
+Launch kernel with parameters: 4, N: 256, stride: 159
+Launch kernel with parameters: 4, N: 256, stride: 159
+186.571582
+    640, Launch kernel with parameters: 4, N: 256, stride: 160
+Launch kernel with parameters: 4, N: 256, stride: 160
+Launch kernel with parameters: 4, N: 256, stride: 160
+Launch kernel with parameters: 4, N: 256, stride: 160
+Launch kernel with parameters: 4, N: 256, stride: 160
+Launch kernel with parameters: 4, N: 256, stride: 160
+Launch kernel with parameters: 4, N: 256, stride: 160
+Launch kernel with parameters: 4, N: 256, stride: 160
+Launch kernel with parameters: 4, N: 256, stride: 160
+Launch kernel with parameters: 4, N: 256, stride: 160
+186.776563
+    644, Launch kernel with parameters: 4, N: 256, stride: 161
+Launch kernel with parameters: 4, N: 256, stride: 161
+Launch kernel with parameters: 4, N: 256, stride: 161
+Launch kernel with parameters: 4, N: 256, stride: 161
+Launch kernel with parameters: 4, N: 256, stride: 161
+Launch kernel with parameters: 4, N: 256, stride: 161
+Launch kernel with parameters: 4, N: 256, stride: 161
+Launch kernel with parameters: 4, N: 256, stride: 161
+Launch kernel with parameters: 4, N: 256, stride: 161
+Launch kernel with parameters: 4, N: 256, stride: 161
+186.562695
+    648, Launch kernel with parameters: 4, N: 256, stride: 162
+Launch kernel with parameters: 4, N: 256, stride: 162
+Launch kernel with parameters: 4, N: 256, stride: 162
+Launch kernel with parameters: 4, N: 256, stride: 162
+Launch kernel with parameters: 4, N: 256, stride: 162
+Launch kernel with parameters: 4, N: 256, stride: 162
+Launch kernel with parameters: 4, N: 256, stride: 162
+Launch kernel with parameters: 4, N: 256, stride: 162
+Launch kernel with parameters: 4, N: 256, stride: 162
+Launch kernel with parameters: 4, N: 256, stride: 162
+186.763672
+    652, Launch kernel with parameters: 4, N: 256, stride: 163
+Launch kernel with parameters: 4, N: 256, stride: 163
+Launch kernel with parameters: 4, N: 256, stride: 163
+Launch kernel with parameters: 4, N: 256, stride: 163
+Launch kernel with parameters: 4, N: 256, stride: 163
+Launch kernel with parameters: 4, N: 256, stride: 163
+Launch kernel with parameters: 4, N: 256, stride: 163
+Launch kernel with parameters: 4, N: 256, stride: 163
+Launch kernel with parameters: 4, N: 256, stride: 163
+Launch kernel with parameters: 4, N: 256, stride: 163
+186.500293
+    656, Launch kernel with parameters: 4, N: 256, stride: 164
+Launch kernel with parameters: 4, N: 256, stride: 164
+Launch kernel with parameters: 4, N: 256, stride: 164
+Launch kernel with parameters: 4, N: 256, stride: 164
+Launch kernel with parameters: 4, N: 256, stride: 164
+Launch kernel with parameters: 4, N: 256, stride: 164
+Launch kernel with parameters: 4, N: 256, stride: 164
+Launch kernel with parameters: 4, N: 256, stride: 164
+Launch kernel with parameters: 4, N: 256, stride: 164
+Launch kernel with parameters: 4, N: 256, stride: 164
+186.764062
+    660, Launch kernel with parameters: 4, N: 256, stride: 165
+Launch kernel with parameters: 4, N: 256, stride: 165
+Launch kernel with parameters: 4, N: 256, stride: 165
+Launch kernel with parameters: 4, N: 256, stride: 165
+Launch kernel with parameters: 4, N: 256, stride: 165
+Launch kernel with parameters: 4, N: 256, stride: 165
+Launch kernel with parameters: 4, N: 256, stride: 165
+Launch kernel with parameters: 4, N: 256, stride: 165
+Launch kernel with parameters: 4, N: 256, stride: 165
+Launch kernel with parameters: 4, N: 256, stride: 165
+186.563574
+    664, Launch kernel with parameters: 4, N: 256, stride: 166
+Launch kernel with parameters: 4, N: 256, stride: 166
+Launch kernel with parameters: 4, N: 256, stride: 166
+Launch kernel with parameters: 4, N: 256, stride: 166
+Launch kernel with parameters: 4, N: 256, stride: 166
+Launch kernel with parameters: 4, N: 256, stride: 166
+Launch kernel with parameters: 4, N: 256, stride: 166
+Launch kernel with parameters: 4, N: 256, stride: 166
+Launch kernel with parameters: 4, N: 256, stride: 166
+Launch kernel with parameters: 4, N: 256, stride: 166
+186.745996
+    668, Launch kernel with parameters: 4, N: 256, stride: 167
+Launch kernel with parameters: 4, N: 256, stride: 167
+Launch kernel with parameters: 4, N: 256, stride: 167
+Launch kernel with parameters: 4, N: 256, stride: 167
+Launch kernel with parameters: 4, N: 256, stride: 167
+Launch kernel with parameters: 4, N: 256, stride: 167
+Launch kernel with parameters: 4, N: 256, stride: 167
+Launch kernel with parameters: 4, N: 256, stride: 167
+Launch kernel with parameters: 4, N: 256, stride: 167
+Launch kernel with parameters: 4, N: 256, stride: 167
+186.556055
+    672, Launch kernel with parameters: 4, N: 256, stride: 168
+Launch kernel with parameters: 4, N: 256, stride: 168
+Launch kernel with parameters: 4, N: 256, stride: 168
+Launch kernel with parameters: 4, N: 256, stride: 168
+Launch kernel with parameters: 4, N: 256, stride: 168
+Launch kernel with parameters: 4, N: 256, stride: 168
+Launch kernel with parameters: 4, N: 256, stride: 168
+Launch kernel with parameters: 4, N: 256, stride: 168
+Launch kernel with parameters: 4, N: 256, stride: 168
+Launch kernel with parameters: 4, N: 256, stride: 168
+186.741211
+    676, Launch kernel with parameters: 4, N: 256, stride: 169
+Launch kernel with parameters: 4, N: 256, stride: 169
+Launch kernel with parameters: 4, N: 256, stride: 169
+Launch kernel with parameters: 4, N: 256, stride: 169
+Launch kernel with parameters: 4, N: 256, stride: 169
+Launch kernel with parameters: 4, N: 256, stride: 169
+Launch kernel with parameters: 4, N: 256, stride: 169
+Launch kernel with parameters: 4, N: 256, stride: 169
+Launch kernel with parameters: 4, N: 256, stride: 169
+Launch kernel with parameters: 4, N: 256, stride: 169
+186.544824
+    680, Launch kernel with parameters: 4, N: 256, stride: 170
+Launch kernel with parameters: 4, N: 256, stride: 170
+Launch kernel with parameters: 4, N: 256, stride: 170
+Launch kernel with parameters: 4, N: 256, stride: 170
+Launch kernel with parameters: 4, N: 256, stride: 170
+Launch kernel with parameters: 4, N: 256, stride: 170
+Launch kernel with parameters: 4, N: 256, stride: 170
+Launch kernel with parameters: 4, N: 256, stride: 170
+Launch kernel with parameters: 4, N: 256, stride: 170
+Launch kernel with parameters: 4, N: 256, stride: 170
+186.745801
+    684, Launch kernel with parameters: 4, N: 256, stride: 171
+Launch kernel with parameters: 4, N: 256, stride: 171
+Launch kernel with parameters: 4, N: 256, stride: 171
+Launch kernel with parameters: 4, N: 256, stride: 171
+Launch kernel with parameters: 4, N: 256, stride: 171
+Launch kernel with parameters: 4, N: 256, stride: 171
+Launch kernel with parameters: 4, N: 256, stride: 171
+Launch kernel with parameters: 4, N: 256, stride: 171
+Launch kernel with parameters: 4, N: 256, stride: 171
+Launch kernel with parameters: 4, N: 256, stride: 171
+186.558203
+    688, Launch kernel with parameters: 4, N: 256, stride: 172
+Launch kernel with parameters: 4, N: 256, stride: 172
+Launch kernel with parameters: 4, N: 256, stride: 172
+Launch kernel with parameters: 4, N: 256, stride: 172
+Launch kernel with parameters: 4, N: 256, stride: 172
+Launch kernel with parameters: 4, N: 256, stride: 172
+Launch kernel with parameters: 4, N: 256, stride: 172
+Launch kernel with parameters: 4, N: 256, stride: 172
+Launch kernel with parameters: 4, N: 256, stride: 172
+Launch kernel with parameters: 4, N: 256, stride: 172
+186.751074
+    692, Launch kernel with parameters: 4, N: 256, stride: 173
+Launch kernel with parameters: 4, N: 256, stride: 173
+Launch kernel with parameters: 4, N: 256, stride: 173
+Launch kernel with parameters: 4, N: 256, stride: 173
+Launch kernel with parameters: 4, N: 256, stride: 173
+Launch kernel with parameters: 4, N: 256, stride: 173
+Launch kernel with parameters: 4, N: 256, stride: 173
+Launch kernel with parameters: 4, N: 256, stride: 173
+Launch kernel with parameters: 4, N: 256, stride: 173
+Launch kernel with parameters: 4, N: 256, stride: 173
+186.546875
+    696, Launch kernel with parameters: 4, N: 256, stride: 174
+Launch kernel with parameters: 4, N: 256, stride: 174
+Launch kernel with parameters: 4, N: 256, stride: 174
+Launch kernel with parameters: 4, N: 256, stride: 174
+Launch kernel with parameters: 4, N: 256, stride: 174
+Launch kernel with parameters: 4, N: 256, stride: 174
+Launch kernel with parameters: 4, N: 256, stride: 174
+Launch kernel with parameters: 4, N: 256, stride: 174
+Launch kernel with parameters: 4, N: 256, stride: 174
+Launch kernel with parameters: 4, N: 256, stride: 174
+186.742578
+    700, Launch kernel with parameters: 4, N: 256, stride: 175
+Launch kernel with parameters: 4, N: 256, stride: 175
+Launch kernel with parameters: 4, N: 256, stride: 175
+Launch kernel with parameters: 4, N: 256, stride: 175
+Launch kernel with parameters: 4, N: 256, stride: 175
+Launch kernel with parameters: 4, N: 256, stride: 175
+Launch kernel with parameters: 4, N: 256, stride: 175
+Launch kernel with parameters: 4, N: 256, stride: 175
+Launch kernel with parameters: 4, N: 256, stride: 175
+Launch kernel with parameters: 4, N: 256, stride: 175
+186.540234
+    704, Launch kernel with parameters: 4, N: 256, stride: 176
+Launch kernel with parameters: 4, N: 256, stride: 176
+Launch kernel with parameters: 4, N: 256, stride: 176
+Launch kernel with parameters: 4, N: 256, stride: 176
+Launch kernel with parameters: 4, N: 256, stride: 176
+Launch kernel with parameters: 4, N: 256, stride: 176
+Launch kernel with parameters: 4, N: 256, stride: 176
+Launch kernel with parameters: 4, N: 256, stride: 176
+Launch kernel with parameters: 4, N: 256, stride: 176
+Launch kernel with parameters: 4, N: 256, stride: 176
+186.707520
+    708, Launch kernel with parameters: 4, N: 256, stride: 177
+Launch kernel with parameters: 4, N: 256, stride: 177
+Launch kernel with parameters: 4, N: 256, stride: 177
+Launch kernel with parameters: 4, N: 256, stride: 177
+Launch kernel with parameters: 4, N: 256, stride: 177
+Launch kernel with parameters: 4, N: 256, stride: 177
+Launch kernel with parameters: 4, N: 256, stride: 177
+Launch kernel with parameters: 4, N: 256, stride: 177
+Launch kernel with parameters: 4, N: 256, stride: 177
+Launch kernel with parameters: 4, N: 256, stride: 177
+186.554785
+    712, Launch kernel with parameters: 4, N: 256, stride: 178
+Launch kernel with parameters: 4, N: 256, stride: 178
+Launch kernel with parameters: 4, N: 256, stride: 178
+Launch kernel with parameters: 4, N: 256, stride: 178
+Launch kernel with parameters: 4, N: 256, stride: 178
+Launch kernel with parameters: 4, N: 256, stride: 178
+Launch kernel with parameters: 4, N: 256, stride: 178
+Launch kernel with parameters: 4, N: 256, stride: 178
+Launch kernel with parameters: 4, N: 256, stride: 178
+Launch kernel with parameters: 4, N: 256, stride: 178
+186.757031
+    716, Launch kernel with parameters: 4, N: 256, stride: 179
+Launch kernel with parameters: 4, N: 256, stride: 179
+Launch kernel with parameters: 4, N: 256, stride: 179
+Launch kernel with parameters: 4, N: 256, stride: 179
+Launch kernel with parameters: 4, N: 256, stride: 179
+Launch kernel with parameters: 4, N: 256, stride: 179
+Launch kernel with parameters: 4, N: 256, stride: 179
+Launch kernel with parameters: 4, N: 256, stride: 179
+Launch kernel with parameters: 4, N: 256, stride: 179
+Launch kernel with parameters: 4, N: 256, stride: 179
+186.566797
+    720, Launch kernel with parameters: 4, N: 256, stride: 180
+Launch kernel with parameters: 4, N: 256, stride: 180
+Launch kernel with parameters: 4, N: 256, stride: 180
+Launch kernel with parameters: 4, N: 256, stride: 180
+Launch kernel with parameters: 4, N: 256, stride: 180
+Launch kernel with parameters: 4, N: 256, stride: 180
+Launch kernel with parameters: 4, N: 256, stride: 180
+Launch kernel with parameters: 4, N: 256, stride: 180
+Launch kernel with parameters: 4, N: 256, stride: 180
+Launch kernel with parameters: 4, N: 256, stride: 180
+186.748047
+    724, Launch kernel with parameters: 4, N: 256, stride: 181
+Launch kernel with parameters: 4, N: 256, stride: 181
+Launch kernel with parameters: 4, N: 256, stride: 181
+Launch kernel with parameters: 4, N: 256, stride: 181
+Launch kernel with parameters: 4, N: 256, stride: 181
+Launch kernel with parameters: 4, N: 256, stride: 181
+Launch kernel with parameters: 4, N: 256, stride: 181
+Launch kernel with parameters: 4, N: 256, stride: 181
+Launch kernel with parameters: 4, N: 256, stride: 181
+Launch kernel with parameters: 4, N: 256, stride: 181
+186.552246
+    728, Launch kernel with parameters: 4, N: 256, stride: 182
+Launch kernel with parameters: 4, N: 256, stride: 182
+Launch kernel with parameters: 4, N: 256, stride: 182
+Launch kernel with parameters: 4, N: 256, stride: 182
+Launch kernel with parameters: 4, N: 256, stride: 182
+Launch kernel with parameters: 4, N: 256, stride: 182
+Launch kernel with parameters: 4, N: 256, stride: 182
+Launch kernel with parameters: 4, N: 256, stride: 182
+Launch kernel with parameters: 4, N: 256, stride: 182
+Launch kernel with parameters: 4, N: 256, stride: 182
+186.753125
+    732, Launch kernel with parameters: 4, N: 256, stride: 183
+Launch kernel with parameters: 4, N: 256, stride: 183
+Launch kernel with parameters: 4, N: 256, stride: 183
+Launch kernel with parameters: 4, N: 256, stride: 183
+Launch kernel with parameters: 4, N: 256, stride: 183
+Launch kernel with parameters: 4, N: 256, stride: 183
+Launch kernel with parameters: 4, N: 256, stride: 183
+Launch kernel with parameters: 4, N: 256, stride: 183
+Launch kernel with parameters: 4, N: 256, stride: 183
+Launch kernel with parameters: 4, N: 256, stride: 183
+186.531348
+    736, Launch kernel with parameters: 4, N: 256, stride: 184
+Launch kernel with parameters: 4, N: 256, stride: 184
+Launch kernel with parameters: 4, N: 256, stride: 184
+Launch kernel with parameters: 4, N: 256, stride: 184
+Launch kernel with parameters: 4, N: 256, stride: 184
+Launch kernel with parameters: 4, N: 256, stride: 184
+Launch kernel with parameters: 4, N: 256, stride: 184
+Launch kernel with parameters: 4, N: 256, stride: 184
+Launch kernel with parameters: 4, N: 256, stride: 184
+Launch kernel with parameters: 4, N: 256, stride: 184
+186.752246
+    740, Launch kernel with parameters: 4, N: 256, stride: 185
+Launch kernel with parameters: 4, N: 256, stride: 185
+Launch kernel with parameters: 4, N: 256, stride: 185
+Launch kernel with parameters: 4, N: 256, stride: 185
+Launch kernel with parameters: 4, N: 256, stride: 185
+Launch kernel with parameters: 4, N: 256, stride: 185
+Launch kernel with parameters: 4, N: 256, stride: 185
+Launch kernel with parameters: 4, N: 256, stride: 185
+Launch kernel with parameters: 4, N: 256, stride: 185
+Launch kernel with parameters: 4, N: 256, stride: 185
+186.540234
+    744, Launch kernel with parameters: 4, N: 256, stride: 186
+Launch kernel with parameters: 4, N: 256, stride: 186
+Launch kernel with parameters: 4, N: 256, stride: 186
+Launch kernel with parameters: 4, N: 256, stride: 186
+Launch kernel with parameters: 4, N: 256, stride: 186
+Launch kernel with parameters: 4, N: 256, stride: 186
+Launch kernel with parameters: 4, N: 256, stride: 186
+Launch kernel with parameters: 4, N: 256, stride: 186
+Launch kernel with parameters: 4, N: 256, stride: 186
+Launch kernel with parameters: 4, N: 256, stride: 186
+186.741504
+    748, Launch kernel with parameters: 4, N: 256, stride: 187
+Launch kernel with parameters: 4, N: 256, stride: 187
+Launch kernel with parameters: 4, N: 256, stride: 187
+Launch kernel with parameters: 4, N: 256, stride: 187
+Launch kernel with parameters: 4, N: 256, stride: 187
+Launch kernel with parameters: 4, N: 256, stride: 187
+Launch kernel with parameters: 4, N: 256, stride: 187
+Launch kernel with parameters: 4, N: 256, stride: 187
+Launch kernel with parameters: 4, N: 256, stride: 187
+Launch kernel with parameters: 4, N: 256, stride: 187
+186.541797
+    752, Launch kernel with parameters: 4, N: 256, stride: 188
+Launch kernel with parameters: 4, N: 256, stride: 188
+Launch kernel with parameters: 4, N: 256, stride: 188
+Launch kernel with parameters: 4, N: 256, stride: 188
+Launch kernel with parameters: 4, N: 256, stride: 188
+Launch kernel with parameters: 4, N: 256, stride: 188
+Launch kernel with parameters: 4, N: 256, stride: 188
+Launch kernel with parameters: 4, N: 256, stride: 188
+Launch kernel with parameters: 4, N: 256, stride: 188
+Launch kernel with parameters: 4, N: 256, stride: 188
+186.737988
+    756, Launch kernel with parameters: 4, N: 256, stride: 189
+Launch kernel with parameters: 4, N: 256, stride: 189
+Launch kernel with parameters: 4, N: 256, stride: 189
+Launch kernel with parameters: 4, N: 256, stride: 189
+Launch kernel with parameters: 4, N: 256, stride: 189
+Launch kernel with parameters: 4, N: 256, stride: 189
+Launch kernel with parameters: 4, N: 256, stride: 189
+Launch kernel with parameters: 4, N: 256, stride: 189
+Launch kernel with parameters: 4, N: 256, stride: 189
+Launch kernel with parameters: 4, N: 256, stride: 189
+186.556445
+    760, Launch kernel with parameters: 4, N: 256, stride: 190
+Launch kernel with parameters: 4, N: 256, stride: 190
+Launch kernel with parameters: 4, N: 256, stride: 190
+Launch kernel with parameters: 4, N: 256, stride: 190
+Launch kernel with parameters: 4, N: 256, stride: 190
+Launch kernel with parameters: 4, N: 256, stride: 190
+Launch kernel with parameters: 4, N: 256, stride: 190
+Launch kernel with parameters: 4, N: 256, stride: 190
+Launch kernel with parameters: 4, N: 256, stride: 190
+Launch kernel with parameters: 4, N: 256, stride: 190
+186.747461
+    764, Launch kernel with parameters: 4, N: 256, stride: 191
+Launch kernel with parameters: 4, N: 256, stride: 191
+Launch kernel with parameters: 4, N: 256, stride: 191
+Launch kernel with parameters: 4, N: 256, stride: 191
+Launch kernel with parameters: 4, N: 256, stride: 191
+Launch kernel with parameters: 4, N: 256, stride: 191
+Launch kernel with parameters: 4, N: 256, stride: 191
+Launch kernel with parameters: 4, N: 256, stride: 191
+Launch kernel with parameters: 4, N: 256, stride: 191
+Launch kernel with parameters: 4, N: 256, stride: 191
+186.559082
+    768, Launch kernel with parameters: 4, N: 256, stride: 192
+Launch kernel with parameters: 4, N: 256, stride: 192
+Launch kernel with parameters: 4, N: 256, stride: 192
+Launch kernel with parameters: 4, N: 256, stride: 192
+Launch kernel with parameters: 4, N: 256, stride: 192
+Launch kernel with parameters: 4, N: 256, stride: 192
+Launch kernel with parameters: 4, N: 256, stride: 192
+Launch kernel with parameters: 4, N: 256, stride: 192
+Launch kernel with parameters: 4, N: 256, stride: 192
+Launch kernel with parameters: 4, N: 256, stride: 192
+186.741113
+    772, Launch kernel with parameters: 4, N: 256, stride: 193
+Launch kernel with parameters: 4, N: 256, stride: 193
+Launch kernel with parameters: 4, N: 256, stride: 193
+Launch kernel with parameters: 4, N: 256, stride: 193
+Launch kernel with parameters: 4, N: 256, stride: 193
+Launch kernel with parameters: 4, N: 256, stride: 193
+Launch kernel with parameters: 4, N: 256, stride: 193
+Launch kernel with parameters: 4, N: 256, stride: 193
+Launch kernel with parameters: 4, N: 256, stride: 193
+Launch kernel with parameters: 4, N: 256, stride: 193
+186.561816
+    776, Launch kernel with parameters: 4, N: 256, stride: 194
+Launch kernel with parameters: 4, N: 256, stride: 194
+Launch kernel with parameters: 4, N: 256, stride: 194
+Launch kernel with parameters: 4, N: 256, stride: 194
+Launch kernel with parameters: 4, N: 256, stride: 194
+Launch kernel with parameters: 4, N: 256, stride: 194
+Launch kernel with parameters: 4, N: 256, stride: 194
+Launch kernel with parameters: 4, N: 256, stride: 194
+Launch kernel with parameters: 4, N: 256, stride: 194
+Launch kernel with parameters: 4, N: 256, stride: 194
+186.766406
+    780, Launch kernel with parameters: 4, N: 256, stride: 195
+Launch kernel with parameters: 4, N: 256, stride: 195
+Launch kernel with parameters: 4, N: 256, stride: 195
+Launch kernel with parameters: 4, N: 256, stride: 195
+Launch kernel with parameters: 4, N: 256, stride: 195
+Launch kernel with parameters: 4, N: 256, stride: 195
+Launch kernel with parameters: 4, N: 256, stride: 195
+Launch kernel with parameters: 4, N: 256, stride: 195
+Launch kernel with parameters: 4, N: 256, stride: 195
+Launch kernel with parameters: 4, N: 256, stride: 195
+186.568262
+    784, Launch kernel with parameters: 4, N: 256, stride: 196
+Launch kernel with parameters: 4, N: 256, stride: 196
+Launch kernel with parameters: 4, N: 256, stride: 196
+Launch kernel with parameters: 4, N: 256, stride: 196
+Launch kernel with parameters: 4, N: 256, stride: 196
+Launch kernel with parameters: 4, N: 256, stride: 196
+Launch kernel with parameters: 4, N: 256, stride: 196
+Launch kernel with parameters: 4, N: 256, stride: 196
+Launch kernel with parameters: 4, N: 256, stride: 196
+Launch kernel with parameters: 4, N: 256, stride: 196
+186.727539
+    788, Launch kernel with parameters: 4, N: 256, stride: 197
+Launch kernel with parameters: 4, N: 256, stride: 197
+Launch kernel with parameters: 4, N: 256, stride: 197
+Launch kernel with parameters: 4, N: 256, stride: 197
+Launch kernel with parameters: 4, N: 256, stride: 197
+Launch kernel with parameters: 4, N: 256, stride: 197
+Launch kernel with parameters: 4, N: 256, stride: 197
+Launch kernel with parameters: 4, N: 256, stride: 197
+Launch kernel with parameters: 4, N: 256, stride: 197
+Launch kernel with parameters: 4, N: 256, stride: 197
+186.552148
+    792, Launch kernel with parameters: 4, N: 256, stride: 198
+Launch kernel with parameters: 4, N: 256, stride: 198
+Launch kernel with parameters: 4, N: 256, stride: 198
+Launch kernel with parameters: 4, N: 256, stride: 198
+Launch kernel with parameters: 4, N: 256, stride: 198
+Launch kernel with parameters: 4, N: 256, stride: 198
+Launch kernel with parameters: 4, N: 256, stride: 198
+Launch kernel with parameters: 4, N: 256, stride: 198
+Launch kernel with parameters: 4, N: 256, stride: 198
+Launch kernel with parameters: 4, N: 256, stride: 198
+186.756152
+    796, Launch kernel with parameters: 4, N: 256, stride: 199
+Launch kernel with parameters: 4, N: 256, stride: 199
+Launch kernel with parameters: 4, N: 256, stride: 199
+Launch kernel with parameters: 4, N: 256, stride: 199
+Launch kernel with parameters: 4, N: 256, stride: 199
+Launch kernel with parameters: 4, N: 256, stride: 199
+Launch kernel with parameters: 4, N: 256, stride: 199
+Launch kernel with parameters: 4, N: 256, stride: 199
+Launch kernel with parameters: 4, N: 256, stride: 199
+Launch kernel with parameters: 4, N: 256, stride: 199
+186.551562
+    800, Launch kernel with parameters: 4, N: 256, stride: 200
+Launch kernel with parameters: 4, N: 256, stride: 200
+Launch kernel with parameters: 4, N: 256, stride: 200
+Launch kernel with parameters: 4, N: 256, stride: 200
+Launch kernel with parameters: 4, N: 256, stride: 200
+Launch kernel with parameters: 4, N: 256, stride: 200
+Launch kernel with parameters: 4, N: 256, stride: 200
+Launch kernel with parameters: 4, N: 256, stride: 200
+Launch kernel with parameters: 4, N: 256, stride: 200
+Launch kernel with parameters: 4, N: 256, stride: 200
+186.775879
+    804, Launch kernel with parameters: 4, N: 256, stride: 201
+Launch kernel with parameters: 4, N: 256, stride: 201
+Launch kernel with parameters: 4, N: 256, stride: 201
+Launch kernel with parameters: 4, N: 256, stride: 201
+Launch kernel with parameters: 4, N: 256, stride: 201
+Launch kernel with parameters: 4, N: 256, stride: 201
+Launch kernel with parameters: 4, N: 256, stride: 201
+Launch kernel with parameters: 4, N: 256, stride: 201
+Launch kernel with parameters: 4, N: 256, stride: 201
+Launch kernel with parameters: 4, N: 256, stride: 201
+186.549512
+    808, Launch kernel with parameters: 4, N: 256, stride: 202
+Launch kernel with parameters: 4, N: 256, stride: 202
+Launch kernel with parameters: 4, N: 256, stride: 202
+Launch kernel with parameters: 4, N: 256, stride: 202
+Launch kernel with parameters: 4, N: 256, stride: 202
+Launch kernel with parameters: 4, N: 256, stride: 202
+Launch kernel with parameters: 4, N: 256, stride: 202
+Launch kernel with parameters: 4, N: 256, stride: 202
+Launch kernel with parameters: 4, N: 256, stride: 202
+Launch kernel with parameters: 4, N: 256, stride: 202
+186.752441
+    812, Launch kernel with parameters: 4, N: 256, stride: 203
+Launch kernel with parameters: 4, N: 256, stride: 203
+Launch kernel with parameters: 4, N: 256, stride: 203
+Launch kernel with parameters: 4, N: 256, stride: 203
+Launch kernel with parameters: 4, N: 256, stride: 203
+Launch kernel with parameters: 4, N: 256, stride: 203
+Launch kernel with parameters: 4, N: 256, stride: 203
+Launch kernel with parameters: 4, N: 256, stride: 203
+Launch kernel with parameters: 4, N: 256, stride: 203
+Launch kernel with parameters: 4, N: 256, stride: 203
+186.541699
+    816, Launch kernel with parameters: 4, N: 256, stride: 204
+Launch kernel with parameters: 4, N: 256, stride: 204
+Launch kernel with parameters: 4, N: 256, stride: 204
+Launch kernel with parameters: 4, N: 256, stride: 204
+Launch kernel with parameters: 4, N: 256, stride: 204
+Launch kernel with parameters: 4, N: 256, stride: 204
+Launch kernel with parameters: 4, N: 256, stride: 204
+Launch kernel with parameters: 4, N: 256, stride: 204
+Launch kernel with parameters: 4, N: 256, stride: 204
+Launch kernel with parameters: 4, N: 256, stride: 204
+186.751465
+    820, Launch kernel with parameters: 4, N: 256, stride: 205
+Launch kernel with parameters: 4, N: 256, stride: 205
+Launch kernel with parameters: 4, N: 256, stride: 205
+Launch kernel with parameters: 4, N: 256, stride: 205
+Launch kernel with parameters: 4, N: 256, stride: 205
+Launch kernel with parameters: 4, N: 256, stride: 205
+Launch kernel with parameters: 4, N: 256, stride: 205
+Launch kernel with parameters: 4, N: 256, stride: 205
+Launch kernel with parameters: 4, N: 256, stride: 205
+Launch kernel with parameters: 4, N: 256, stride: 205
+186.581250
+    824, Launch kernel with parameters: 4, N: 256, stride: 206
+Launch kernel with parameters: 4, N: 256, stride: 206
+Launch kernel with parameters: 4, N: 256, stride: 206
+Launch kernel with parameters: 4, N: 256, stride: 206
+Launch kernel with parameters: 4, N: 256, stride: 206
+Launch kernel with parameters: 4, N: 256, stride: 206
+Launch kernel with parameters: 4, N: 256, stride: 206
+Launch kernel with parameters: 4, N: 256, stride: 206
+Launch kernel with parameters: 4, N: 256, stride: 206
+Launch kernel with parameters: 4, N: 256, stride: 206
+186.752832
+    828, Launch kernel with parameters: 4, N: 256, stride: 207
+Launch kernel with parameters: 4, N: 256, stride: 207
+Launch kernel with parameters: 4, N: 256, stride: 207
+Launch kernel with parameters: 4, N: 256, stride: 207
+Launch kernel with parameters: 4, N: 256, stride: 207
+Launch kernel with parameters: 4, N: 256, stride: 207
+Launch kernel with parameters: 4, N: 256, stride: 207
+Launch kernel with parameters: 4, N: 256, stride: 207
+Launch kernel with parameters: 4, N: 256, stride: 207
+Launch kernel with parameters: 4, N: 256, stride: 207
+186.556738
+    832, Launch kernel with parameters: 4, N: 256, stride: 208
+Launch kernel with parameters: 4, N: 256, stride: 208
+Launch kernel with parameters: 4, N: 256, stride: 208
+Launch kernel with parameters: 4, N: 256, stride: 208
+Launch kernel with parameters: 4, N: 256, stride: 208
+Launch kernel with parameters: 4, N: 256, stride: 208
+Launch kernel with parameters: 4, N: 256, stride: 208
+Launch kernel with parameters: 4, N: 256, stride: 208
+Launch kernel with parameters: 4, N: 256, stride: 208
+Launch kernel with parameters: 4, N: 256, stride: 208
+186.751660
+    836, Launch kernel with parameters: 4, N: 256, stride: 209
+Launch kernel with parameters: 4, N: 256, stride: 209
+Launch kernel with parameters: 4, N: 256, stride: 209
+Launch kernel with parameters: 4, N: 256, stride: 209
+Launch kernel with parameters: 4, N: 256, stride: 209
+Launch kernel with parameters: 4, N: 256, stride: 209
+Launch kernel with parameters: 4, N: 256, stride: 209
+Launch kernel with parameters: 4, N: 256, stride: 209
+Launch kernel with parameters: 4, N: 256, stride: 209
+Launch kernel with parameters: 4, N: 256, stride: 209
+186.559961
+    840, Launch kernel with parameters: 4, N: 256, stride: 210
+Launch kernel with parameters: 4, N: 256, stride: 210
+Launch kernel with parameters: 4, N: 256, stride: 210
+Launch kernel with parameters: 4, N: 256, stride: 210
+Launch kernel with parameters: 4, N: 256, stride: 210
+Launch kernel with parameters: 4, N: 256, stride: 210
+Launch kernel with parameters: 4, N: 256, stride: 210
+Launch kernel with parameters: 4, N: 256, stride: 210
+Launch kernel with parameters: 4, N: 256, stride: 210
+Launch kernel with parameters: 4, N: 256, stride: 210
+186.773828
+    844, Launch kernel with parameters: 4, N: 256, stride: 211
+Launch kernel with parameters: 4, N: 256, stride: 211
+Launch kernel with parameters: 4, N: 256, stride: 211
+Launch kernel with parameters: 4, N: 256, stride: 211
+Launch kernel with parameters: 4, N: 256, stride: 211
+Launch kernel with parameters: 4, N: 256, stride: 211
+Launch kernel with parameters: 4, N: 256, stride: 211
+Launch kernel with parameters: 4, N: 256, stride: 211
+Launch kernel with parameters: 4, N: 256, stride: 211
+Launch kernel with parameters: 4, N: 256, stride: 211
+186.569824
+    848, Launch kernel with parameters: 4, N: 256, stride: 212
+Launch kernel with parameters: 4, N: 256, stride: 212
+Launch kernel with parameters: 4, N: 256, stride: 212
+Launch kernel with parameters: 4, N: 256, stride: 212
+Launch kernel with parameters: 4, N: 256, stride: 212
+Launch kernel with parameters: 4, N: 256, stride: 212
+Launch kernel with parameters: 4, N: 256, stride: 212
+Launch kernel with parameters: 4, N: 256, stride: 212
+Launch kernel with parameters: 4, N: 256, stride: 212
+Launch kernel with parameters: 4, N: 256, stride: 212
+186.775684
+    852, Launch kernel with parameters: 4, N: 256, stride: 213
+Launch kernel with parameters: 4, N: 256, stride: 213
+Launch kernel with parameters: 4, N: 256, stride: 213
+Launch kernel with parameters: 4, N: 256, stride: 213
+Launch kernel with parameters: 4, N: 256, stride: 213
+Launch kernel with parameters: 4, N: 256, stride: 213
+Launch kernel with parameters: 4, N: 256, stride: 213
+Launch kernel with parameters: 4, N: 256, stride: 213
+Launch kernel with parameters: 4, N: 256, stride: 213
+Launch kernel with parameters: 4, N: 256, stride: 213
+186.570996
+    856, Launch kernel with parameters: 4, N: 256, stride: 214
+Launch kernel with parameters: 4, N: 256, stride: 214
+Launch kernel with parameters: 4, N: 256, stride: 214
+Launch kernel with parameters: 4, N: 256, stride: 214
+Launch kernel with parameters: 4, N: 256, stride: 214
+Launch kernel with parameters: 4, N: 256, stride: 214
+Launch kernel with parameters: 4, N: 256, stride: 214
+Launch kernel with parameters: 4, N: 256, stride: 214
+Launch kernel with parameters: 4, N: 256, stride: 214
+Launch kernel with parameters: 4, N: 256, stride: 214
+186.770801
+    860, Launch kernel with parameters: 4, N: 256, stride: 215
+Launch kernel with parameters: 4, N: 256, stride: 215
+Launch kernel with parameters: 4, N: 256, stride: 215
+Launch kernel with parameters: 4, N: 256, stride: 215
+Launch kernel with parameters: 4, N: 256, stride: 215
+Launch kernel with parameters: 4, N: 256, stride: 215
+Launch kernel with parameters: 4, N: 256, stride: 215
+Launch kernel with parameters: 4, N: 256, stride: 215
+Launch kernel with parameters: 4, N: 256, stride: 215
+Launch kernel with parameters: 4, N: 256, stride: 215
+186.562891
+    864, Launch kernel with parameters: 4, N: 256, stride: 216
+Launch kernel with parameters: 4, N: 256, stride: 216
+Launch kernel with parameters: 4, N: 256, stride: 216
+Launch kernel with parameters: 4, N: 256, stride: 216
+Launch kernel with parameters: 4, N: 256, stride: 216
+Launch kernel with parameters: 4, N: 256, stride: 216
+Launch kernel with parameters: 4, N: 256, stride: 216
+Launch kernel with parameters: 4, N: 256, stride: 216
+Launch kernel with parameters: 4, N: 256, stride: 216
+Launch kernel with parameters: 4, N: 256, stride: 216
+186.735840
+    868, Launch kernel with parameters: 4, N: 256, stride: 217
+Launch kernel with parameters: 4, N: 256, stride: 217
+Launch kernel with parameters: 4, N: 256, stride: 217
+Launch kernel with parameters: 4, N: 256, stride: 217
+Launch kernel with parameters: 4, N: 256, stride: 217
+Launch kernel with parameters: 4, N: 256, stride: 217
+Launch kernel with parameters: 4, N: 256, stride: 217
+Launch kernel with parameters: 4, N: 256, stride: 217
+Launch kernel with parameters: 4, N: 256, stride: 217
+Launch kernel with parameters: 4, N: 256, stride: 217
+186.546582
+    872, Launch kernel with parameters: 4, N: 256, stride: 218
+Launch kernel with parameters: 4, N: 256, stride: 218
+Launch kernel with parameters: 4, N: 256, stride: 218
+Launch kernel with parameters: 4, N: 256, stride: 218
+Launch kernel with parameters: 4, N: 256, stride: 218
+Launch kernel with parameters: 4, N: 256, stride: 218
+Launch kernel with parameters: 4, N: 256, stride: 218
+Launch kernel with parameters: 4, N: 256, stride: 218
+Launch kernel with parameters: 4, N: 256, stride: 218
+Launch kernel with parameters: 4, N: 256, stride: 218
+186.757617
+    876, Launch kernel with parameters: 4, N: 256, stride: 219
+Launch kernel with parameters: 4, N: 256, stride: 219
+Launch kernel with parameters: 4, N: 256, stride: 219
+Launch kernel with parameters: 4, N: 256, stride: 219
+Launch kernel with parameters: 4, N: 256, stride: 219
+Launch kernel with parameters: 4, N: 256, stride: 219
+Launch kernel with parameters: 4, N: 256, stride: 219
+Launch kernel with parameters: 4, N: 256, stride: 219
+Launch kernel with parameters: 4, N: 256, stride: 219
+Launch kernel with parameters: 4, N: 256, stride: 219
+186.531348
+    880, Launch kernel with parameters: 4, N: 256, stride: 220
+Launch kernel with parameters: 4, N: 256, stride: 220
+Launch kernel with parameters: 4, N: 256, stride: 220
+Launch kernel with parameters: 4, N: 256, stride: 220
+Launch kernel with parameters: 4, N: 256, stride: 220
+Launch kernel with parameters: 4, N: 256, stride: 220
+Launch kernel with parameters: 4, N: 256, stride: 220
+Launch kernel with parameters: 4, N: 256, stride: 220
+Launch kernel with parameters: 4, N: 256, stride: 220
+Launch kernel with parameters: 4, N: 256, stride: 220
+186.766602
+    884, Launch kernel with parameters: 4, N: 256, stride: 221
+Launch kernel with parameters: 4, N: 256, stride: 221
+Launch kernel with parameters: 4, N: 256, stride: 221
+Launch kernel with parameters: 4, N: 256, stride: 221
+Launch kernel with parameters: 4, N: 256, stride: 221
+Launch kernel with parameters: 4, N: 256, stride: 221
+Launch kernel with parameters: 4, N: 256, stride: 221
+Launch kernel with parameters: 4, N: 256, stride: 221
+Launch kernel with parameters: 4, N: 256, stride: 221
+Launch kernel with parameters: 4, N: 256, stride: 221
+186.569238
+    888, Launch kernel with parameters: 4, N: 256, stride: 222
+Launch kernel with parameters: 4, N: 256, stride: 222
+Launch kernel with parameters: 4, N: 256, stride: 222
+Launch kernel with parameters: 4, N: 256, stride: 222
+Launch kernel with parameters: 4, N: 256, stride: 222
+Launch kernel with parameters: 4, N: 256, stride: 222
+Launch kernel with parameters: 4, N: 256, stride: 222
+Launch kernel with parameters: 4, N: 256, stride: 222
+Launch kernel with parameters: 4, N: 256, stride: 222
+Launch kernel with parameters: 4, N: 256, stride: 222
+186.745898
+    892, Launch kernel with parameters: 4, N: 256, stride: 223
+Launch kernel with parameters: 4, N: 256, stride: 223
+Launch kernel with parameters: 4, N: 256, stride: 223
+Launch kernel with parameters: 4, N: 256, stride: 223
+Launch kernel with parameters: 4, N: 256, stride: 223
+Launch kernel with parameters: 4, N: 256, stride: 223
+Launch kernel with parameters: 4, N: 256, stride: 223
+Launch kernel with parameters: 4, N: 256, stride: 223
+Launch kernel with parameters: 4, N: 256, stride: 223
+Launch kernel with parameters: 4, N: 256, stride: 223
+186.554492
+    896, Launch kernel with parameters: 4, N: 256, stride: 224
+Launch kernel with parameters: 4, N: 256, stride: 224
+Launch kernel with parameters: 4, N: 256, stride: 224
+Launch kernel with parameters: 4, N: 256, stride: 224
+Launch kernel with parameters: 4, N: 256, stride: 224
+Launch kernel with parameters: 4, N: 256, stride: 224
+Launch kernel with parameters: 4, N: 256, stride: 224
+Launch kernel with parameters: 4, N: 256, stride: 224
+Launch kernel with parameters: 4, N: 256, stride: 224
+Launch kernel with parameters: 4, N: 256, stride: 224
+186.770996
+    900, Launch kernel with parameters: 4, N: 256, stride: 225
+Launch kernel with parameters: 4, N: 256, stride: 225
+Launch kernel with parameters: 4, N: 256, stride: 225
+Launch kernel with parameters: 4, N: 256, stride: 225
+Launch kernel with parameters: 4, N: 256, stride: 225
+Launch kernel with parameters: 4, N: 256, stride: 225
+Launch kernel with parameters: 4, N: 256, stride: 225
+Launch kernel with parameters: 4, N: 256, stride: 225
+Launch kernel with parameters: 4, N: 256, stride: 225
+Launch kernel with parameters: 4, N: 256, stride: 225
+186.575684
+    904, Launch kernel with parameters: 4, N: 256, stride: 226
+Launch kernel with parameters: 4, N: 256, stride: 226
+Launch kernel with parameters: 4, N: 256, stride: 226
+Launch kernel with parameters: 4, N: 256, stride: 226
+Launch kernel with parameters: 4, N: 256, stride: 226
+Launch kernel with parameters: 4, N: 256, stride: 226
+Launch kernel with parameters: 4, N: 256, stride: 226
+Launch kernel with parameters: 4, N: 256, stride: 226
+Launch kernel with parameters: 4, N: 256, stride: 226
+Launch kernel with parameters: 4, N: 256, stride: 226
+186.750098
+    908, Launch kernel with parameters: 4, N: 256, stride: 227
+Launch kernel with parameters: 4, N: 256, stride: 227
+Launch kernel with parameters: 4, N: 256, stride: 227
+Launch kernel with parameters: 4, N: 256, stride: 227
+Launch kernel with parameters: 4, N: 256, stride: 227
+Launch kernel with parameters: 4, N: 256, stride: 227
+Launch kernel with parameters: 4, N: 256, stride: 227
+Launch kernel with parameters: 4, N: 256, stride: 227
+Launch kernel with parameters: 4, N: 256, stride: 227
+Launch kernel with parameters: 4, N: 256, stride: 227
+186.555957
+    912, Launch kernel with parameters: 4, N: 256, stride: 228
+Launch kernel with parameters: 4, N: 256, stride: 228
+Launch kernel with parameters: 4, N: 256, stride: 228
+Launch kernel with parameters: 4, N: 256, stride: 228
+Launch kernel with parameters: 4, N: 256, stride: 228
+Launch kernel with parameters: 4, N: 256, stride: 228
+Launch kernel with parameters: 4, N: 256, stride: 228
+Launch kernel with parameters: 4, N: 256, stride: 228
+Launch kernel with parameters: 4, N: 256, stride: 228
+Launch kernel with parameters: 4, N: 256, stride: 228
+186.749902
+    916, Launch kernel with parameters: 4, N: 256, stride: 229
+Launch kernel with parameters: 4, N: 256, stride: 229
+Launch kernel with parameters: 4, N: 256, stride: 229
+Launch kernel with parameters: 4, N: 256, stride: 229
+Launch kernel with parameters: 4, N: 256, stride: 229
+Launch kernel with parameters: 4, N: 256, stride: 229
+Launch kernel with parameters: 4, N: 256, stride: 229
+Launch kernel with parameters: 4, N: 256, stride: 229
+Launch kernel with parameters: 4, N: 256, stride: 229
+Launch kernel with parameters: 4, N: 256, stride: 229
+186.531445
+    920, Launch kernel with parameters: 4, N: 256, stride: 230
+Launch kernel with parameters: 4, N: 256, stride: 230
+Launch kernel with parameters: 4, N: 256, stride: 230
+Launch kernel with parameters: 4, N: 256, stride: 230
+Launch kernel with parameters: 4, N: 256, stride: 230
+Launch kernel with parameters: 4, N: 256, stride: 230
+Launch kernel with parameters: 4, N: 256, stride: 230
+Launch kernel with parameters: 4, N: 256, stride: 230
+Launch kernel with parameters: 4, N: 256, stride: 230
+Launch kernel with parameters: 4, N: 256, stride: 230
+186.751367
+    924, Launch kernel with parameters: 4, N: 256, stride: 231
+Launch kernel with parameters: 4, N: 256, stride: 231
+Launch kernel with parameters: 4, N: 256, stride: 231
+Launch kernel with parameters: 4, N: 256, stride: 231
+Launch kernel with parameters: 4, N: 256, stride: 231
+Launch kernel with parameters: 4, N: 256, stride: 231
+Launch kernel with parameters: 4, N: 256, stride: 231
+Launch kernel with parameters: 4, N: 256, stride: 231
+Launch kernel with parameters: 4, N: 256, stride: 231
+Launch kernel with parameters: 4, N: 256, stride: 231
+186.554492
+    928, Launch kernel with parameters: 4, N: 256, stride: 232
+Launch kernel with parameters: 4, N: 256, stride: 232
+Launch kernel with parameters: 4, N: 256, stride: 232
+Launch kernel with parameters: 4, N: 256, stride: 232
+Launch kernel with parameters: 4, N: 256, stride: 232
+Launch kernel with parameters: 4, N: 256, stride: 232
+Launch kernel with parameters: 4, N: 256, stride: 232
+Launch kernel with parameters: 4, N: 256, stride: 232
+Launch kernel with parameters: 4, N: 256, stride: 232
+Launch kernel with parameters: 4, N: 256, stride: 232
+186.761133
+    932, Launch kernel with parameters: 4, N: 256, stride: 233
+Launch kernel with parameters: 4, N: 256, stride: 233
+Launch kernel with parameters: 4, N: 256, stride: 233
+Launch kernel with parameters: 4, N: 256, stride: 233
+Launch kernel with parameters: 4, N: 256, stride: 233
+Launch kernel with parameters: 4, N: 256, stride: 233
+Launch kernel with parameters: 4, N: 256, stride: 233
+Launch kernel with parameters: 4, N: 256, stride: 233
+Launch kernel with parameters: 4, N: 256, stride: 233
+Launch kernel with parameters: 4, N: 256, stride: 233
+186.552344
+    936, Launch kernel with parameters: 4, N: 256, stride: 234
+Launch kernel with parameters: 4, N: 256, stride: 234
+Launch kernel with parameters: 4, N: 256, stride: 234
+Launch kernel with parameters: 4, N: 256, stride: 234
+Launch kernel with parameters: 4, N: 256, stride: 234
+Launch kernel with parameters: 4, N: 256, stride: 234
+Launch kernel with parameters: 4, N: 256, stride: 234
+Launch kernel with parameters: 4, N: 256, stride: 234
+Launch kernel with parameters: 4, N: 256, stride: 234
+Launch kernel with parameters: 4, N: 256, stride: 234
+186.749512
+    940, Launch kernel with parameters: 4, N: 256, stride: 235
+Launch kernel with parameters: 4, N: 256, stride: 235
+Launch kernel with parameters: 4, N: 256, stride: 235
+Launch kernel with parameters: 4, N: 256, stride: 235
+Launch kernel with parameters: 4, N: 256, stride: 235
+Launch kernel with parameters: 4, N: 256, stride: 235
+Launch kernel with parameters: 4, N: 256, stride: 235
+Launch kernel with parameters: 4, N: 256, stride: 235
+Launch kernel with parameters: 4, N: 256, stride: 235
+Launch kernel with parameters: 4, N: 256, stride: 235
+186.557910
+    944, Launch kernel with parameters: 4, N: 256, stride: 236
+Launch kernel with parameters: 4, N: 256, stride: 236
+Launch kernel with parameters: 4, N: 256, stride: 236
+Launch kernel with parameters: 4, N: 256, stride: 236
+Launch kernel with parameters: 4, N: 256, stride: 236
+Launch kernel with parameters: 4, N: 256, stride: 236
+Launch kernel with parameters: 4, N: 256, stride: 236
+Launch kernel with parameters: 4, N: 256, stride: 236
+Launch kernel with parameters: 4, N: 256, stride: 236
+Launch kernel with parameters: 4, N: 256, stride: 236
+186.737305
+    948, Launch kernel with parameters: 4, N: 256, stride: 237
+Launch kernel with parameters: 4, N: 256, stride: 237
+Launch kernel with parameters: 4, N: 256, stride: 237
+Launch kernel with parameters: 4, N: 256, stride: 237
+Launch kernel with parameters: 4, N: 256, stride: 237
+Launch kernel with parameters: 4, N: 256, stride: 237
+Launch kernel with parameters: 4, N: 256, stride: 237
+Launch kernel with parameters: 4, N: 256, stride: 237
+Launch kernel with parameters: 4, N: 256, stride: 237
+Launch kernel with parameters: 4, N: 256, stride: 237
+186.545605
+    952, Launch kernel with parameters: 4, N: 256, stride: 238
+Launch kernel with parameters: 4, N: 256, stride: 238
+Launch kernel with parameters: 4, N: 256, stride: 238
+Launch kernel with parameters: 4, N: 256, stride: 238
+Launch kernel with parameters: 4, N: 256, stride: 238
+Launch kernel with parameters: 4, N: 256, stride: 238
+Launch kernel with parameters: 4, N: 256, stride: 238
+Launch kernel with parameters: 4, N: 256, stride: 238
+Launch kernel with parameters: 4, N: 256, stride: 238
+Launch kernel with parameters: 4, N: 256, stride: 238
+186.735840
+    956, Launch kernel with parameters: 4, N: 256, stride: 239
+Launch kernel with parameters: 4, N: 256, stride: 239
+Launch kernel with parameters: 4, N: 256, stride: 239
+Launch kernel with parameters: 4, N: 256, stride: 239
+Launch kernel with parameters: 4, N: 256, stride: 239
+Launch kernel with parameters: 4, N: 256, stride: 239
+Launch kernel with parameters: 4, N: 256, stride: 239
+Launch kernel with parameters: 4, N: 256, stride: 239
+Launch kernel with parameters: 4, N: 256, stride: 239
+Launch kernel with parameters: 4, N: 256, stride: 239
+186.551367
+    960, Launch kernel with parameters: 4, N: 256, stride: 240
+Launch kernel with parameters: 4, N: 256, stride: 240
+Launch kernel with parameters: 4, N: 256, stride: 240
+Launch kernel with parameters: 4, N: 256, stride: 240
+Launch kernel with parameters: 4, N: 256, stride: 240
+Launch kernel with parameters: 4, N: 256, stride: 240
+Launch kernel with parameters: 4, N: 256, stride: 240
+Launch kernel with parameters: 4, N: 256, stride: 240
+Launch kernel with parameters: 4, N: 256, stride: 240
+Launch kernel with parameters: 4, N: 256, stride: 240
+186.754199
+    964, Launch kernel with parameters: 4, N: 256, stride: 241
+Launch kernel with parameters: 4, N: 256, stride: 241
+Launch kernel with parameters: 4, N: 256, stride: 241
+Launch kernel with parameters: 4, N: 256, stride: 241
+Launch kernel with parameters: 4, N: 256, stride: 241
+Launch kernel with parameters: 4, N: 256, stride: 241
+Launch kernel with parameters: 4, N: 256, stride: 241
+Launch kernel with parameters: 4, N: 256, stride: 241
+Launch kernel with parameters: 4, N: 256, stride: 241
+Launch kernel with parameters: 4, N: 256, stride: 241
+186.541504
+    968, Launch kernel with parameters: 4, N: 256, stride: 242
+Launch kernel with parameters: 4, N: 256, stride: 242
+Launch kernel with parameters: 4, N: 256, stride: 242
+Launch kernel with parameters: 4, N: 256, stride: 242
+Launch kernel with parameters: 4, N: 256, stride: 242
+Launch kernel with parameters: 4, N: 256, stride: 242
+Launch kernel with parameters: 4, N: 256, stride: 242
+Launch kernel with parameters: 4, N: 256, stride: 242
+Launch kernel with parameters: 4, N: 256, stride: 242
+Launch kernel with parameters: 4, N: 256, stride: 242
+186.747266
+    972, Launch kernel with parameters: 4, N: 256, stride: 243
+Launch kernel with parameters: 4, N: 256, stride: 243
+Launch kernel with parameters: 4, N: 256, stride: 243
+Launch kernel with parameters: 4, N: 256, stride: 243
+Launch kernel with parameters: 4, N: 256, stride: 243
+Launch kernel with parameters: 4, N: 256, stride: 243
+Launch kernel with parameters: 4, N: 256, stride: 243
+Launch kernel with parameters: 4, N: 256, stride: 243
+Launch kernel with parameters: 4, N: 256, stride: 243
+Launch kernel with parameters: 4, N: 256, stride: 243
+186.539648
+    976, Launch kernel with parameters: 4, N: 256, stride: 244
+Launch kernel with parameters: 4, N: 256, stride: 244
+Launch kernel with parameters: 4, N: 256, stride: 244
+Launch kernel with parameters: 4, N: 256, stride: 244
+Launch kernel with parameters: 4, N: 256, stride: 244
+Launch kernel with parameters: 4, N: 256, stride: 244
+Launch kernel with parameters: 4, N: 256, stride: 244
+Launch kernel with parameters: 4, N: 256, stride: 244
+Launch kernel with parameters: 4, N: 256, stride: 244
+Launch kernel with parameters: 4, N: 256, stride: 244
+186.744043
+    980, Launch kernel with parameters: 4, N: 256, stride: 245
+Launch kernel with parameters: 4, N: 256, stride: 245
+Launch kernel with parameters: 4, N: 256, stride: 245
+Launch kernel with parameters: 4, N: 256, stride: 245
+Launch kernel with parameters: 4, N: 256, stride: 245
+Launch kernel with parameters: 4, N: 256, stride: 245
+Launch kernel with parameters: 4, N: 256, stride: 245
+Launch kernel with parameters: 4, N: 256, stride: 245
+Launch kernel with parameters: 4, N: 256, stride: 245
+Launch kernel with parameters: 4, N: 256, stride: 245
+186.554590
+    984, Launch kernel with parameters: 4, N: 256, stride: 246
+Launch kernel with parameters: 4, N: 256, stride: 246
+Launch kernel with parameters: 4, N: 256, stride: 246
+Launch kernel with parameters: 4, N: 256, stride: 246
+Launch kernel with parameters: 4, N: 256, stride: 246
+Launch kernel with parameters: 4, N: 256, stride: 246
+Launch kernel with parameters: 4, N: 256, stride: 246
+Launch kernel with parameters: 4, N: 256, stride: 246
+Launch kernel with parameters: 4, N: 256, stride: 246
+Launch kernel with parameters: 4, N: 256, stride: 246
+186.786230
+    988, Launch kernel with parameters: 4, N: 256, stride: 247
+Launch kernel with parameters: 4, N: 256, stride: 247
+Launch kernel with parameters: 4, N: 256, stride: 247
+Launch kernel with parameters: 4, N: 256, stride: 247
+Launch kernel with parameters: 4, N: 256, stride: 247
+Launch kernel with parameters: 4, N: 256, stride: 247
+Launch kernel with parameters: 4, N: 256, stride: 247
+Launch kernel with parameters: 4, N: 256, stride: 247
+Launch kernel with parameters: 4, N: 256, stride: 247
+Launch kernel with parameters: 4, N: 256, stride: 247
+186.560352
+    992, Launch kernel with parameters: 4, N: 256, stride: 248
+Launch kernel with parameters: 4, N: 256, stride: 248
+Launch kernel with parameters: 4, N: 256, stride: 248
+Launch kernel with parameters: 4, N: 256, stride: 248
+Launch kernel with parameters: 4, N: 256, stride: 248
+Launch kernel with parameters: 4, N: 256, stride: 248
+Launch kernel with parameters: 4, N: 256, stride: 248
+Launch kernel with parameters: 4, N: 256, stride: 248
+Launch kernel with parameters: 4, N: 256, stride: 248
+Launch kernel with parameters: 4, N: 256, stride: 248
+186.755176
+    996, Launch kernel with parameters: 4, N: 256, stride: 249
+Launch kernel with parameters: 4, N: 256, stride: 249
+Launch kernel with parameters: 4, N: 256, stride: 249
+Launch kernel with parameters: 4, N: 256, stride: 249
+Launch kernel with parameters: 4, N: 256, stride: 249
+Launch kernel with parameters: 4, N: 256, stride: 249
+Launch kernel with parameters: 4, N: 256, stride: 249
+Launch kernel with parameters: 4, N: 256, stride: 249
+Launch kernel with parameters: 4, N: 256, stride: 249
+Launch kernel with parameters: 4, N: 256, stride: 249
+186.535840
+   1000, Launch kernel with parameters: 4, N: 256, stride: 250
+Launch kernel with parameters: 4, N: 256, stride: 250
+Launch kernel with parameters: 4, N: 256, stride: 250
+Launch kernel with parameters: 4, N: 256, stride: 250
+Launch kernel with parameters: 4, N: 256, stride: 250
+Launch kernel with parameters: 4, N: 256, stride: 250
+Launch kernel with parameters: 4, N: 256, stride: 250
+Launch kernel with parameters: 4, N: 256, stride: 250
+Launch kernel with parameters: 4, N: 256, stride: 250
+Launch kernel with parameters: 4, N: 256, stride: 250
+186.747070
+   1004, Launch kernel with parameters: 4, N: 256, stride: 251
+Launch kernel with parameters: 4, N: 256, stride: 251
+Launch kernel with parameters: 4, N: 256, stride: 251
+Launch kernel with parameters: 4, N: 256, s
