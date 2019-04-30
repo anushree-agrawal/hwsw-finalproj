@@ -255,9 +255,9 @@ void measure_global5() {
 
 
 	iterations = 1;
-	stride = 512 * 1024 / 4;
+	stride = 512 * 1024 / 8;
 	for (N = (1*1024*1024); N <= (64*1024*1024); N += stride) {
-		printf ("   %5d, ", N*4/1024 * page_size/4);
+		printf ("   %5d, ", N*8/1024 * page_size/4);
 		parametric_measure_global(N*page_size/4, iterations, 1, stride *page_size/4);
 	}
 }
@@ -300,7 +300,7 @@ int main() {
 	printf("Assuming page size is %d KB\n", page_size);
 	// measure_global1();
 	// measure_global4();
-	// measure_global5();
-	measure_global6();
+	measure_global5();
+	// measure_global6();
 	return 0;
 }
