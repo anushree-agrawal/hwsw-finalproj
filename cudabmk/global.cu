@@ -3,7 +3,7 @@
 
 #include "repeat.h"
 
-const int page_size = 4;	// Scale stride and arrays by page size.
+const int page_size = 64;	// Scale stride and arrays by page size.
 
 
 __global__ void global_latency (unsigned long ** my_array, int array_length, int iterations, int ignore_iterations, unsigned long long * duration) {
@@ -250,15 +250,15 @@ void measure_global5() {
 
 	// initialize upper bounds here
 
-	printf("\nGlobal5: Global memory latency for %d KB stride.\n", 128 * page_size/4);
+	printf("\nGlobal5: Global memory latency for %d KB stride.\n", 128);
 	printf("   Array size (KB), latency (clocks)\n");
 
 
 	iterations = 1;
 	stride = 128 * 1024 / 8;
 	for (N = (1*128*1024); N <= (16*1024*1024); N += stride) {
-		printf ("   %5d, ", N*8/1024 * page_size/4);
-		parametric_measure_global(N*page_size/4, iterations, 1, stride *page_size/4);
+		printf ("   %5d, ", N*8/1024);
+		parametric_measure_global(N, iterations, 1, stride);
 	}
 }
 
@@ -320,8 +320,8 @@ int main() {
 	printf("%d\n", sizeof(long long));
 	// measure_global_dibs();
 	// measure_global1();
-	measure_global4();
-	// measure_global5();
+	// measure_global4();
+	measure_global5();
 	// measure_global6();
 	return 0;
 }
