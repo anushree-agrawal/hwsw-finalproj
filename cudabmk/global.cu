@@ -146,7 +146,7 @@ void measure_pagesize(int N, int stride, int offset) {
 	if (size > 241600000) { printf ("OOM.\n"); return; }
 
 	/* allocate array on CPU */
-	h_a = (unsigned long **)malloc(4 * size);
+	h_a = (unsigned long **)malloc(8 * size);
 	latency = (unsigned long long *)malloc(sizeof(unsigned long long));
 
 	/* allocate array on GPU */
@@ -156,12 +156,12 @@ void measure_pagesize(int N, int stride, int offset) {
    	/* initialize array elements on CPU */
 
 	for (int i=0;i<N; i++)
-		((unsigned long *)h_a)[i*stride] = ((i*stride + stride)*4) + (uintptr_t) d_a;
+		((unsigned long *)h_a)[i*stride] = ((i*stride + stride)*8) + (uintptr_t) d_a;
 
-	((unsigned long *)h_a)[(N-1)*stride] = ((N*stride + offset)*4) + (uintptr_t) d_a;	//point last element to stride+offset
+	((unsigned long *)h_a)[(N-1)*stride] = ((N*stride + offset)*8) + (uintptr_t) d_a;	//point last element to stride+offset
 
 	for (int i=0;i<N; i++)
-		((unsigned long *)h_a)[(i+N)*stride+offset] = (((i+N)*stride + offset + stride)*4) + (uintptr_t) d_a;
+		((unsigned long *)h_a)[(i+N)*stride+offset] = (((i+N)*stride + offset + stride)*8) + (uintptr_t) d_a;
 
 	((unsigned long *)h_a)[(2*N-1)*stride+offset] = (uintptr_t) d_a;		//wrap around.
 	
@@ -250,13 +250,13 @@ void measure_global5() {
 
 	// initialize upper bounds here
 
-	printf("\nGlobal5: Global memory latency for %d KB stride.\n", 512 * page_size/4);
+	printf("\nGlobal5: Global memory latency for %d KB stride.\n", 128 * page_size/4);
 	printf("   Array size (KB), latency (clocks)\n");
 
 
 	iterations = 1;
-	stride = 512 * 1024 / 8;
-	for (N = (1*1024*1024); N <= (64*1024*1024); N += stride) {
+	stride = 128 * 1024 / 8;
+	for (N = (1*128*1024); N <= (16*1024*1024); N += stride) {
 		printf ("   %5d, ", N*8/1024 * page_size/4);
 		parametric_measure_global(N*page_size/4, iterations, 1, stride *page_size/4);
 	}
@@ -274,7 +274,7 @@ void measure_global_dibs() {
 
 	iterations = 1;
 	stride = 4 * 1024 / 8;
-	for (N = (1*1024); N <= (8*1024*1024); N += stride) {
+	for (N = (1*1024); N <= (2*1024*1024); N += stride) {
 		printf ("   %5d, ", N*8/1024 * page_size/4);
 		parametric_measure_global(N*page_size/4, iterations, 1, stride *page_size/4);
 	}
@@ -286,39 +286,41 @@ void measure_global6() {
 	printf("\nGlobal6: Testing associativity of L1 TLB.\n");
 	printf("   entries, array size (KB), stride (KB), latency\n");
 
-	for (entries = 8; entries <= 9; entries++) {
+	for (entries = 8; entries <= 17; entries++) {
 		for (stride = 1; stride <= (4*1024*1024); stride *= 2 ) {
 			for (int substride = 1; substride < 16; substride *= 2 ) {
 				int stride2 = stride * sqrt(sqrt(substride)) + 0.5;
 				N = entries * stride2;
 				
-				printf ("   %d, %7.2f, %7f, ", entries, N*4/1024.0*page_size/4, stride2*4/1024.0*page_size/4);
+				printf ("   %d, %7.2f, %7f, ", entries, N*8/1024.0*page_size/4, stride2*8/1024.0*page_size/4);
 				parametric_measure_global(N*page_size/4, 4, 1, stride2*page_size/4);
 			}
 		}
 	}
 }
 
-void measure_global4()
+void measure_global4() //TODO
 {
 	printf ("\nGlobal4: Measuring L2 TLB page size using %d MB stride\n", 2 * page_size/4);
 	printf ("  offset (bytes), latency (clocks)\n");
 		
 	// Small offsets (approx. page size) are interesting. Search much bigger offsets to
 	// ensure nothing else interesting happens.
-	for (int offset = -2048/4; offset <= (2097152+1536)/4; offset += (offset < 1536) ? 128/4 : 4096/4)
+	for (int offset = -2048/8; offset <= (2097152+1536)/8; offset += (offset < 1536) ? 128/8 : 4096/8)
 	{
-		printf ("  %d, ", offset*4 *page_size/4);
-		measure_pagesize(10, 2097152/4 *page_size/4, offset* page_size/4);
+		printf ("  %d, ", offset*8 *page_size/4);
+		measure_pagesize(10, 2097152/8 *page_size/4, offset* page_size/4);
 	}
 	
 }
 
 int main() {
 	printf("Assuming page size is %d KB\n", page_size);
-	measure_global_dibs();
+	printf("%d\n", sizeof(long));
+	printf("%d\n", sizeof(long long));
+	// measure_global_dibs();
 	// measure_global1();
-	// measure_global4();
+	measure_global4();
 	// measure_global5();
 	// measure_global6();
 	return 0;
