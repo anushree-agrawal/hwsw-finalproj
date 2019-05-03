@@ -1,0 +1,5 @@
+Assuming page size is 4 KB
+8
+8
+
+ Measuring # of PTW Threads...Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0Thread id: 0
