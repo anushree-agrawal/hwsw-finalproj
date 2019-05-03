@@ -314,43 +314,61 @@ void measure_global4() //TODO
 	
 }
 
-__global__ void ptw_thread_kernel(unsigned long ** gpuArr, unsigned long gpuArrSize, int iterations, int ignore_iterations, unsigned long long * duration) {
+__global__ void ptw_thread_kernel(unsigned long ** gpuArr, unsigned long **largeGPUArr, unsigned long gpuArrSize, 
+								  int iterations, int ignore_iterations, unsigned long long * duration, 
+								  int numAccess, int numThreads, int N) {
 	unsigned long start_time, end_time;
-	unsigned long *j = (unsigned long*)gpuArr; 
+	unsigned long *j = (unsigned long*)(gpuArr+(threadIdx.x*N/sizeof(unsigned long))); 
 	volatile unsigned long long sum_time;
 
 	sum_time = 0;
 	duration[0] = 0;
+	if (threadIdx.x == 0) {
+		for (int i = 0; i<512*1024*1024/8; i++) {
+			largeGPUArr[i] = (unsigned long *) i+1; //scam
+		}
+	}
+	__syncthreads();
 
 	for (int k = -ignore_iterations; k < iterations; k++) {
 		if (k==0) {
 			sum_time = 0; // ignore some iterations: cold icache misses
 		}
 
-		start_time = clock();
 		// Do our striding
-		printf("Thread id: %d\n", threadIdx.x);
+		//printf("Thread id: %d\n", threadIdx.x);
+
+		start_time = clock();
+		//printf("Thread id 334: %d\n", threadIdx.x);
+		repeat256(j=*(unsigned long **)j;__syncthreads();)
+		//printf("Thread id 336: %d\n", threadIdx.x);
 		end_time = clock();
+		//printf("Thread id 338: %d\n", threadIdx.x);
 
 		sum_time += (end_time - start_time);
+		//printf("Time: %lld Thread ID: %d\n", sum_time, threadIdx.x);
 	}
 
-	((unsigned long*)gpuArr)[gpuArrSize] = (unsigned long)j;
-	((unsigned long*)gpuArr)[gpuArrSize+1] = (unsigned long) sum_time;
-	duration[0] = sum_time;
+	((unsigned long*)gpuArr)[gpuArrSize + threadIdx.x] = (unsigned long)j;
+	((unsigned long*)gpuArr)[gpuArrSize+ numThreads + threadIdx.x] = (unsigned long) sum_time;
+	if (threadIdx.x == numThreads-1) {
+		duration[0] = sum_time;
+	}
 }
 
-void measure_ptw_thread() {
-	printf("\n Measuring # of PTW Threads...");
+void measure_ptw_thread(unsigned long numThreads) {
+	// printf("\n Measuring # of PTW Threads with %d threads used...\n", numThreads);
 
 	unsigned long start_time, end_time;
 
 	unsigned long *cpuArr;
 	unsigned long **gpuArr;
-	unsigned long N = 4096;
-	unsigned long numThreads = 3;
+	unsigned long N = 128*1024;
 	unsigned long numAccess = 256; // accesses per thread, 
 	unsigned long totalMem = N * numThreads * numAccess;
+
+	unsigned long *largeCPUArr;
+	unsigned long **largeGPUArr;
 
 	unsigned long long * duration;
 	unsigned long long * latency;
@@ -360,18 +378,24 @@ void measure_ptw_thread() {
 
 	// malloc for cpu array
 	cpuArr = (unsigned long *)malloc(totalMem);
+	largeCPUArr = (unsigned long *)malloc(512*1024*1024);
 
-	cudaMalloc ((void **) &gpuArr, sizeof(unsigned long) * (totalMem));
-	int step = 4096;	// Optimization: Initialize fewer elements.
+	cudaMalloc ((void **) &gpuArr, totalMem + sizeof(unsigned long) * (numThreads * 2 + 5)); // 5 because we don't trust ourselves
+	cudaMalloc ((void **) &largeGPUArr, 512*1024*1024);
+
 	for (long i = 0; i < totalMem/(sizeof(unsigned long)); i += N/(sizeof(unsigned long))) {
 		// Device pointers are 64-bit on what we are using.
-		cpuArr[i] = ((unsigned long)(uintptr_t)gpuArr) + ((i + (numThreads * N/sizeof(unsigned long)))%N * sizeof(unsigned long));	
+		cpuArr[i] = ((unsigned long)(uintptr_t)gpuArr) + ((i + (numThreads * N/sizeof(unsigned long)))%N * sizeof(unsigned long));
+	}
+	for (long i = 0; i < 512*1024*1024/8; i++) {
+		largeCPUArr[i] = i;
 	}
 
 	cudaThreadSynchronize ();
 
     /* copy array elements from CPU to GPU */
     cudaMemcpy((void *)gpuArr, (void *)cpuArr, totalMem, cudaMemcpyHostToDevice);
+    cudaMemcpy((void *)largeGPUArr, (void *)largeCPUArr, 512*1024*1024, cudaMemcpyHostToDevice);
 
 	cudaThreadSynchronize ();
 
@@ -382,10 +406,10 @@ void measure_ptw_thread() {
 
 	for (int l=0; l <10; l++) {
 		/* launch kernel*/
-		dim3 Db = dim3(3);
-		dim3 Dg = dim3(1,1,1);
+		dim3 Db = dim3(numThreads);
+		dim3 Dg = dim3(1);
 		// Pray and launch our kernel
-		ptw_thread_kernel <<<Dg, Db>>>(gpuArr, totalMem/sizeof(unsigned long), 4, 1, duration);
+		ptw_thread_kernel <<<Dg, Db>>>(gpuArr, largeGPUArr, totalMem/sizeof(unsigned long), 1, 0, duration, numAccess, numThreads, N); //don't ignore the first iteration
 		cudaThreadSynchronize ();
 
 		cudaError_t error_id = cudaGetLastError();
@@ -398,6 +422,7 @@ void measure_ptw_thread() {
 		cudaMemcpy((void *)latency, (void *)duration, sizeof(unsigned long long), cudaMemcpyDeviceToHost);
 
 	    cudaThreadSynchronize ();
+
 		latency_sum+=latency[0];
 
 	}
@@ -412,19 +437,22 @@ void measure_ptw_thread() {
     free(cpuArr);
     free(latency);
 
+    printf("%d,%f\n", numThreads, (double)(latency_sum/(10*256.0)) );
 	
 
 }
 
 int main() {
 	printf("Assuming page size is %d KB\n", page_size);
-	printf("%d\n", sizeof(long));
-	printf("%d\n", sizeof(long long));
+	// printf("%d\n", sizeof(long));
+	// printf("%d\n", sizeof(long long));
 	// measure_global_dibs();
 	// measure_global1();
 	// measure_global4();
 	// measure_global5();
 	// measure_global6();
-	measure_ptw_thread();
+	for (unsigned long i = 1; i<=64; i++) {
+		measure_ptw_thread(i);
+	}
 	return 0;
 }
